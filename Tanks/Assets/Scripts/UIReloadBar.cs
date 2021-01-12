@@ -16,6 +16,6 @@ public class UIReloadBar : MonoBehaviour {
 	// Update is called once per frame
 	void Update () 
     {
-        slider.value = turret.fireTimer;
+        slider.value = turret.reloadTimer;
 	}
 }

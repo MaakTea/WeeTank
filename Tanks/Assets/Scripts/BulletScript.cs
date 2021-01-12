@@ -38,7 +38,7 @@ public class BulletScript : MonoBehaviour {
 
     public void OnCollisionEnter(Collision collision) 
     {
-        Debug.Log("coll");
+        //Debug.Log("coll");
         Hit(collision.collider);
     }
 
@@ -46,7 +46,7 @@ public class BulletScript : MonoBehaviour {
     {
         if (c.transform.IsChildOf(owner.transform)) return;
 
-        Debug.Log("trigger");
+        //Debug.Log("trigger");
         Hit(c);
     }
 }

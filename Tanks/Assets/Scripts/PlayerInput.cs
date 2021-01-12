@@ -37,13 +37,16 @@ public class PlayerInput : MonoBehaviour {
         turretScript.mouseLocation = mousePos;
         //turretScript.rotateToMouse = toMouseDir;
 
+        // -- Drawing rays from camera to ground --
         Ray ray = mouseCam.ScreenPointToRay(Input.mousePosition);
         Debug.DrawRay(ray.origin, ray.direction * mouseCam.farClipPlane, Color.gray);
 
         hitValid = Physics.Raycast(ray, out hit);
 
+
         turretScript.targetValid = hitValid;
         turretScript.targetPos = hit.point;
         turretScript.fireInput = Input.GetMouseButton(0);
+        turretScript.reloadSpeed = 1;
     }
 }

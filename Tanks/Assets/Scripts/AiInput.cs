@@ -5,6 +5,7 @@ using UnityEngine;
 public class AiInput : MonoBehaviour {
 
     public Tank tankScript;
+    public Turret turretScript;
 
     public Transform target;
     public Transform[] targets;
@@ -34,5 +35,12 @@ public class AiInput : MonoBehaviour {
 
         tankScript.steering = x;
         tankScript.gas = y;
+
+        //if (false)
+        {
+            turretScript.targetValid = true;
+            turretScript.targetPos = target.position;
+        }
+
     }
 }

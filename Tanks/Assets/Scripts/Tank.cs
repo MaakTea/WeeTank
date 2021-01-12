@@ -2,7 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Tank : MonoBehaviour {
+public class Tank : MonoBehaviour 
+{
     [Range(-1,1)]
     public float steering;
     [Range(-1,1)]
@@ -10,6 +11,7 @@ public class Tank : MonoBehaviour {
 
     public float moveSpeed = 1;
     public float turnSpeed = 1;
+
 
 
 	// Use this for initialization
@@ -22,9 +24,9 @@ public class Tank : MonoBehaviour {
         float x = steering;
         float y = gas;
 
-        transform.rotation *= Quaternion.Euler(0, 0, -x         * turnSpeed * Time.deltaTime);
+        transform.rotation *= Quaternion.Euler(0, x         * turnSpeed * Time.deltaTime, 0);
         //Vector3 rot = new Vector3(Mathf.Cos((transform.rotation.eulerAngles.z + 90) * Mathf.Deg2Rad), Mathf.Sin((transform.rotation.eulerAngles.z + 90) * Mathf.Deg2Rad), 0); //player.rotation.eulerAngles.z
-        transform.position += transform.up * y                  * moveSpeed * Time.deltaTime;
+        transform.position += transform.forward * y         * moveSpeed * Time.deltaTime;
 
 
     }

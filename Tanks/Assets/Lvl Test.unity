@@ -777,11 +777,6 @@ Prefab:
       propertyPath: targets.Array.data[2]
       value: 
       objectReference: {fileID: 1354913651}
-    - target: {fileID: 65492096462092216, guid: 17f709841885f434488e580c971568cb,
-        type: 2}
-      propertyPath: m_IsTrigger
-      value: 1
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 17f709841885f434488e580c971568cb, type: 2}
   m_IsPrefabParent: 0

@@ -38,7 +38,7 @@ public class PlayerInput : MonoBehaviour {
         //turretScript.rotateToMouse = toMouseDir;
 
         Ray ray = mouseCam.ScreenPointToRay(Input.mousePosition);
-        Debug.DrawRay(ray.origin, ray.direction * mouseCam.farClipPlane, Color.grey);
+        Debug.DrawRay(ray.origin, ray.direction * mouseCam.farClipPlane, Color.gray);
 
         hitValid = Physics.Raycast(ray, out hit);
 

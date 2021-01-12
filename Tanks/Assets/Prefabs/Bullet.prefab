@@ -215,6 +215,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bulletSpeed: 15
   damage: 1
+  owner: {fileID: 0}
+  explosion: {fileID: 1976509556559130, guid: 946c9b7c39c0b374e9fd20915bd97fe6, type: 2}
 --- !u!135 &135762599303827430
 SphereCollider:
   m_ObjectHideFlags: 1

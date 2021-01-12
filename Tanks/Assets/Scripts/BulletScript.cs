@@ -8,6 +8,7 @@ public class BulletScript : MonoBehaviour {
     public int damage = 1;
 
     public GameObject owner;
+    public Object explosion;
 
     bool destroyed;
 
@@ -15,6 +16,7 @@ public class BulletScript : MonoBehaviour {
 	void Start () 
     {
         Destroy(this.gameObject, 5);
+        Debug.Log("Shot from: " + owner.name);
 	}
 	
 	// Update is called once per frame
@@ -30,6 +32,8 @@ public class BulletScript : MonoBehaviour {
         Debug.Log("Hit: " + collider.name);
         Destroy(this.gameObject);
         destroyed = true;
+        GameObject explode = (GameObject)Instantiate(explosion, transform.position, transform.rotation);
+        Destroy(explode, 3);
     }
 
     public void OnCollisionEnter(Collision collision) 

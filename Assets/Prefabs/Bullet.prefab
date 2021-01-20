@@ -200,7 +200,7 @@ Rigidbody:
   m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 112
   m_CollisionDetection: 0
 --- !u!114 &114750854320344274
 MonoBehaviour:
@@ -215,6 +215,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bulletSpeed: 15
   damage: 1
+  bounces: 1
+  bounced: 0
+  bounceTimer: 0
   owner: {fileID: 0}
   explosion: {fileID: 1976509556559130, guid: 946c9b7c39c0b374e9fd20915bd97fe6, type: 2}
 --- !u!135 &135762599303827430

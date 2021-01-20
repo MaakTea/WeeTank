@@ -18,7 +18,6 @@ public class Manager : MonoBehaviour {
     public float Movespeed;
 
     Vector3 targetDirection;
-    float turnSpeed;
 
 
 
@@ -30,15 +29,13 @@ public class Manager : MonoBehaviour {
             //enemies[i].position = points[1].position;
         }
         enemyTarget = points[1];
-
-        turnSpeed = 1 * Time.deltaTime;    // The turn size is equal to speed times frame time.
     }
 	
 	// Update is called once per frame
 	void Update () 
     {
         #region Player
-        float x = Input.GetAxis("Horizontal");
+        /*float x = Input.GetAxis("Horizontal");
         float y = Input.GetAxis("Vertical");
 
         player.rotation *= Quaternion.Euler(0, 0, -x);
@@ -82,7 +79,7 @@ public class Manager : MonoBehaviour {
         }
 
         //Debug.DrawRay(player.position ,rot*5);
-        if(Input.GetKeyDown(KeyCode.Z)) { Debug.Log("Stablalizing"); }
+        if(Input.GetKeyDown(KeyCode.Z)) { Debug.Log("Stablalizing"); }*/
         #endregion
         #region Enemies
         

@@ -5,7 +5,10 @@ using UnityEngine;
 public class BulletScript : MonoBehaviour {
 
     public float bulletSpeed = 1;
-    public int damage = 1;
+    public int damage = 10;
+    public int bounces = 1;
+        public bool bounced = false;
+        public float bounceTimer = 0f;
 
     public GameObject owner;
     public Object explosion;
@@ -20,16 +23,37 @@ public class BulletScript : MonoBehaviour {
 	}
 	
 	// Update is called once per frame
-	void Update () 
+	void FixedUpdate ()
     {
-        transform.position += transform.forward * bulletSpeed * Time.deltaTime;
+        if (bounced) 
+        { 
+            bounceTimer -= 1-Time.fixedDeltaTime;
+        }
+        transform.position += transform.forward * bulletSpeed * Time.fixedDeltaTime;
+        if (Input.GetKeyDown(KeyCode.B)) 
+        {
+            transform.rotation = Quaternion.Inverse(transform.rotation);
+        }
 	}
 
     void Hit(Collider collider)
     {
         if (destroyed) return;
+        //Debug.Log(bounceTimer);
+        //Debug.Log("Bounces: " + bounces);
+        if (bounceTimer > 0) return;
 
         Debug.Log("Hit: " + collider.name);
+        if (collider.name != "hitbox" && bounces >= 1)
+        {
+            //Debug.Log("Bounced");
+            bounceTimer = 0.25f;
+            Bounced();
+            bounced = true;
+            bounces--;
+            return;
+        }
+
         Destroy(this.gameObject);
         destroyed = true;
         GameObject explode = (GameObject)Instantiate(explosion, transform.position, transform.rotation);
@@ -48,5 +72,12 @@ public class BulletScript : MonoBehaviour {
 
         //Debug.Log("trigger");
         Hit(c);
+    }
+
+    public void Bounced() 
+    {
+        //transform.position -= (transform.forward*2) * bulletSpeed * Time.deltaTime;
+        //transform.rotation = Quaternion.Euler(0, transform.rotation.y-180, 0);
+        transform.rotation = Quaternion.Inverse(transform.rotation);
     }
 }

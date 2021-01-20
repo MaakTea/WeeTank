@@ -27,7 +27,7 @@ public class BulletScript : MonoBehaviour {
     {
         if (bounced) 
         { 
-            bounceTimer -= 1-Time.fixedDeltaTime;
+            bounceTimer -= Time.fixedDeltaTime;
         }
         transform.position += transform.forward * bulletSpeed * Time.fixedDeltaTime;
         if (Input.GetKeyDown(KeyCode.B)) 
@@ -36,7 +36,7 @@ public class BulletScript : MonoBehaviour {
         }
 	}
 
-    void Hit(Collider collider)
+    void Hit(Collider collider, Collision collision)
     {
         if (destroyed) return;
         //Debug.Log(bounceTimer);
@@ -44,11 +44,11 @@ public class BulletScript : MonoBehaviour {
         if (bounceTimer > 0) return;
 
         Debug.Log("Hit: " + collider.name);
-        if (collider.name != "hitbox" && bounces >= 1)
+        if (collider.name != "hitbox" && bounces >= 1 && collision != null)
         {
             //Debug.Log("Bounced");
             bounceTimer = 0.25f;
-            Bounced();
+            Bounced(collision.contacts[0].normal);
             bounced = true;
             bounces--;
             return;
@@ -63,7 +63,7 @@ public class BulletScript : MonoBehaviour {
     public void OnCollisionEnter(Collision collision) 
     {
         //Debug.Log("coll");
-        Hit(collision.collider);
+        Hit(collision.collider, collision);
     }
 
     public void OnTriggerEnter(Collider c)
@@ -71,13 +71,15 @@ public class BulletScript : MonoBehaviour {
         if (c.transform.IsChildOf(owner.transform)) return;
 
         //Debug.Log("trigger");
-        Hit(c);
+        Hit(c, null);
     }
 
-    public void Bounced() 
+    public void Bounced(Vector3 wallNormal) 
     {
         //transform.position -= (transform.forward*2) * bulletSpeed * Time.deltaTime;
         //transform.rotation = Quaternion.Euler(0, transform.rotation.y-180, 0);
-        transform.rotation = Quaternion.Inverse(transform.rotation);
+        //transform.rotation = Quaternion.Inverse(transform.rotation);
+        Vector3 newForward = Vector3.Reflect(transform.forward, wallNormal);
+        transform.rotation = Quaternion.LookRotation(newForward);
     }
 }

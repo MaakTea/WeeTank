@@ -23,7 +23,7 @@ ToDo:
 - powerups OR upgrades between rounds
   - tank: max speed, acceleration, deceleration, turn rate, turn acceleration(momentum), max speed while turning(!)
   - turret: turn rate, turn acceelration, fire rate (reload)
-  - bullet: speed, lifetime, bounces
+  - bullet: speed, lifetime, bounces, damage, AOE, ...
 
 - same screen multiplayer (co-op vs AIs, PvP)
   - gamepad input

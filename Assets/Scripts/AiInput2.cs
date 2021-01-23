@@ -122,7 +122,7 @@ public class AiInput2 : MonoBehaviour
 				case ActionType.Attack:
 					turretScript.targetPos = bestAction.target.lastKnownPos;
 					turretScript.targetValid = true;
-					turretScript.fireInput = true;
+					turretScript.fireInput = Vector3.Angle(turretScript.transform.InverseTransformPoint(turretScript.targetPos), Vector3.forward) < 10;
 					break;
 
                 default:

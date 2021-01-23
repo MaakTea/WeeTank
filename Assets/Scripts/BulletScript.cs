@@ -71,7 +71,7 @@ public class BulletScript : MonoBehaviour {
 
     public void OnTriggerEnter(Collider c)
     {
-        if (c.transform.IsChildOf(owner.transform)) return;
+		if (owner != null && c.transform.IsChildOf(owner.transform)) return;
 
         //Debug.Log("trigger");
         Hit(c, null);

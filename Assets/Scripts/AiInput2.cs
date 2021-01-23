@@ -159,8 +159,8 @@ public class AiInput2 : MonoBehaviour
 					}
 					{
 						RaycastHit hit;
-						Vector3 toTarget = t.actualTarget.transform.position + Vector3.up * viewHeight - transform.position;
-						Debug.DrawRay(transform.position + Vector3.up, toTarget, Color.grey);
+						Vector3 toTarget = (t.actualTarget.transform.position + Vector3.up * viewHeight) - (transform.position + Vector3.up * viewHeight);
+						Debug.DrawRay(transform.position + Vector3.up * viewHeight, toTarget, Color.grey);
 						bool hitSomething = Physics.Raycast(transform.position + Vector3.up * viewHeight, toTarget.normalized, out hit, toTarget.magnitude);
 						if (!hitSomething)
 						{

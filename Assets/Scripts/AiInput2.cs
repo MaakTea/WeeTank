@@ -10,7 +10,8 @@ public class AiInput2 : MonoBehaviour
 	public enum TargetType
     {
         Waypoint,
-        Enemy,
+		Friend,
+		Enemy,
         WasEnemy,
         PotentialEnemy,
         Powerup,
@@ -38,7 +39,7 @@ public class AiInput2 : MonoBehaviour
     public class Action
     {
 		public ActionType type;	//do this...
-		public Target context;  //...about this target
+		public Target target;  //...about this target
 		public float benefit;	//how useful that would be
 		public float cost;		//how difficult, how much time, etc
     }
@@ -63,10 +64,10 @@ public class AiInput2 : MonoBehaviour
 
     public void FixedUpdate()
     {
-        UpdateAI();
-    }
+		UpdateAI();
+	}
 
-    public void UpdateAI()
+	public void UpdateAI()
     {
 		//NEW AI
 
@@ -85,10 +86,11 @@ public class AiInput2 : MonoBehaviour
             switch(t.type)
             {
                 case TargetType.Enemy:
-                    if (false)
+                    if (true)
                     {
                         Action a = new Action();
                         a.type = ActionType.Attack;
+						a.target = t;
                         a.cost = 1;
                         a.benefit = 1;
                         //...
@@ -117,15 +119,25 @@ public class AiInput2 : MonoBehaviour
         {
             switch(bestAction.type)
             {
+				case ActionType.Attack:
+					turretScript.targetPos = bestAction.target.lastKnownPos;
+					turretScript.targetValid = true;
+					turretScript.fireInput = true;
+					break;
+
                 default:
-                    break;
+					turretScript.targetValid = false;
+					turretScript.fireInput = false;
+					break;
             }
         }
         else
         {
-            //or do a default action here
-        }
-    }
+			//or do a default action here
+			turretScript.targetValid = false;
+			turretScript.fireInput = false;
+		}
+	}
 
     public void UpdateMemory()
     {
@@ -186,7 +198,7 @@ public class AiInput2 : MonoBehaviour
                 else
                 { //new!
                     Target t = new Target();
-                    t.type = TargetType.Enemy;
+                    t.type = tank.team == this.tankScript.team ? TargetType.Friend : TargetType.Enemy;
                     t.lastKnownPos = hit.collider.transform.position;
                     t.actualTarget = tank.transform;
                     currentTargets.Add(t);

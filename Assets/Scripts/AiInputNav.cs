@@ -54,12 +54,14 @@ public class AiInputNav : MonoBehaviour
 		if (!agent.hasPath)
 		{//set target
 			agent.SetDestination(target.position);
+			return;
 		} else
 		if (agent.pathPending)
 		{//wait
 			tankScript.steering = 0;
 			tankScript.gas = 0;
 			moveTarget = transform.position;
+			return;
 		} else
 		{//path is ready
 		 //NavMeshHit hit;
@@ -69,7 +71,11 @@ public class AiInputNav : MonoBehaviour
 		 //}
 			moveTarget = agent.path.corners[1];
 
-			Vector3 targetDirection = moveTarget - transform.position;
+			//moveTarget = transform.position + agent.desiredVelocity;
+		}
+		moveTarget = transform.position + agent.desiredVelocity;
+
+		Vector3 targetDirection = moveTarget - transform.position;
 
 			targetDirection = Quaternion.Inverse(transform.rotation) * targetDirection;
 			// -- setting the angle to turn --
@@ -78,9 +84,7 @@ public class AiInputNav : MonoBehaviour
 			{
 				angle -= 360;
 			}
-
 			tankScript.steering = Mathf.Clamp(angle*0.1f, -1, 1);
 			tankScript.gas = Mathf.Abs(tankScript.steering) > 0.5f ? 0.25f : 1;
-		}
 	}
 }

@@ -7,6 +7,8 @@ public class AiInput2 : MonoBehaviour
     public Tank tankScript;
     public Turret turretScript;
 
+	public float viewHeight = 1.5f;
+
 	public enum TargetType
     {
         Waypoint,
@@ -157,9 +159,9 @@ public class AiInput2 : MonoBehaviour
 					}
 					{
 						RaycastHit hit;
-						Vector3 toTarget = t.actualTarget.transform.position - transform.position;
+						Vector3 toTarget = t.actualTarget.transform.position + Vector3.up * viewHeight - transform.position;
 						Debug.DrawRay(transform.position + Vector3.up, toTarget, Color.grey);
-						bool hitSomething = Physics.Raycast(transform.position + Vector3.up, toTarget.normalized, out hit, toTarget.magnitude);
+						bool hitSomething = Physics.Raycast(transform.position + Vector3.up * viewHeight, toTarget.normalized, out hit, toTarget.magnitude);
 						if (!hitSomething)
 						{
 							currentTargets.RemoveAt(i);
@@ -185,7 +187,7 @@ public class AiInput2 : MonoBehaviour
         Vector3 dir = Quaternion.Euler(0, Random.Range(-180, 180), 0) * Vector3.forward;
         Debug.DrawRay(transform.position + Vector3.up, dir * viewDistance, Color.black);
         RaycastHit hit;
-        bool hitSomething = Physics.Raycast(transform.position + Vector3.up, dir, out hit, viewDistance);
+        bool hitSomething = Physics.Raycast(transform.position + Vector3.up * viewHeight, dir, out hit, viewDistance);
         if (hitSomething)
         {
             Tank tank = hit.collider.GetComponentInParent<Tank>();

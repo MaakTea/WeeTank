@@ -9,6 +9,7 @@ ToDo:
   - use navmesh
 - stop tanks turning over
   - change movement to use physics forces instead of small teleports
+- separate MOVE target and AIM target for tanks :) 
 
 - keep working on new AI
 - hits to actually deal damage, destroy tanks

@@ -15,7 +15,13 @@ ToDo:
 - hits to actually deal damage, destroy tanks
 - win/lose (game over) condition and (re)start (next) level
   - fade in, fade out, UI feedback ("GAME OVER", "VICTORY!")
+  - multiple levels
   
 - Audio: firing, explosion, bounce, tank engine, tracks, turret turn, reload, ...
+- VFX: bullet trails, smoke, sparks, dynamic lights (e.g explosion), etc
 - destructable walls
 - powerups OR upgrades between rounds
+
+- same screen multiplayer (co-op vs AIs, PvP)
+  - gamepad input
+  - test in Parsec

@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class Health : MonoBehaviour {
 
+    public Manager manager;
+
     public int baseHealth = 100;
     public int currentHealth;
 

@@ -18,7 +18,7 @@ public class BulletScript : MonoBehaviour {
 	// Use this for initialization
 	void Start () 
     {
-        Destroy(this.gameObject, 5);
+        Destroy(this.gameObject, 10);
         Debug.Log("Shot from: " + owner.name);
 	}
 	

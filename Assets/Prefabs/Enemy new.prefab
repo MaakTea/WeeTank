@@ -483,6 +483,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd5e46af1d886294f99bd5498e08fcb8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  manager: {fileID: 0}
   baseHealth: 100
   currentHealth: 0
 --- !u!114 &114127673764102086
@@ -515,6 +516,7 @@ MonoBehaviour:
   gas: 0
   moveSpeed: 5
   turnSpeed: 90
+  team: 0
   hitbox: {fileID: 4036783586541654}
 --- !u!114 &114755539982801258
 MonoBehaviour:
@@ -560,7 +562,7 @@ MonoBehaviour:
   rotateToMouse: {x: 0, y: 0, z: 0, w: 0}
   turnSpeed: 250
   fireInput: 0
-  reloadSpeed: 0
+  reloadSpeed: 1
   reloadTimer: 0
 --- !u!198 &198250939901909548
 ParticleSystem:

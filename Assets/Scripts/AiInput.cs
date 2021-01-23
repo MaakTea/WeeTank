@@ -13,7 +13,7 @@ public class AiInput : MonoBehaviour
     // Use this for initialization
     void Start ()
 	{
-		turretScript.reloadSpeed = 5;
+		//turretScript.reloadSpeed = 5;
 	}
 
 	// Update is called once per frame

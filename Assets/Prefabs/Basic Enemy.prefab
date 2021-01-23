@@ -487,6 +487,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tankScript: {fileID: 114284583271102708}
   turretScript: {fileID: 114552851687936482}
+  viewHeight: 1.5
   currentTargets: []
   possibleActions: []
 --- !u!114 &114284583271102708
@@ -552,7 +553,7 @@ MonoBehaviour:
   rotateToMouse: {x: 0, y: 0, z: 0, w: 0}
   turnSpeed: 250
   fireInput: 0
-  reloadSpeed: 0
+  reloadSpeed: 1
   reloadTimer: 0
 --- !u!114 &114609438448752020
 MonoBehaviour:

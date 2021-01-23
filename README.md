@@ -21,6 +21,9 @@ ToDo:
 - VFX: bullet trails, smoke, sparks, dynamic lights (e.g explosion), etc
 - destructable walls
 - powerups OR upgrades between rounds
+  - tank: max speed, acceleration, deceleration, turn rate, turn acceleration(momentum), max speed while turning(!)
+  - turret: turn rate, turn acceelration, fire rate (reload)
+  - bullet: speed, lifetime, bounces
 
 - same screen multiplayer (co-op vs AIs, PvP)
   - gamepad input

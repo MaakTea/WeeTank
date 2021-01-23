@@ -14,6 +14,8 @@ ToDo:
 - keep working on new AI
 - hits to actually deal damage, destroy tanks
 - win/lose (game over) condition and (re)start (next) level
-
+  - fade in, fade out, UI feedback ("GAME OVER", "VICTORY!")
+  
+- Audio: firing, explosion, bounce, tank engine, tracks, turret turn, reload, ...
 - destructable walls
 - powerups OR upgrades between rounds

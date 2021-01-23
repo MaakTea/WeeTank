@@ -140,6 +140,7 @@ GameObject:
   - component: {fileID: 114888158996640940}
   - component: {fileID: 114766245163887034}
   - component: {fileID: 54002676147996944}
+  - component: {fileID: 114892339461085720}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -522,6 +523,20 @@ MonoBehaviour:
   gas: 0
   moveSpeed: 5
   turnSpeed: 90
+  hitbox: {fileID: 4334662158525806}
+--- !u!114 &114892339461085720
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1764264039417176}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd5e46af1d886294f99bd5498e08fcb8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  baseHealth: 100
+  currentHealth: 0
 --- !u!198 &198661257464616626
 ParticleSystem:
   m_ObjectHideFlags: 1

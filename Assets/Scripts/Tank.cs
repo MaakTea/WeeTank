@@ -12,6 +12,8 @@ public class Tank : MonoBehaviour
     public float moveSpeed = 1;
     public float turnSpeed = 1;
 
+    public Transform hitbox;
+
 
 
 	// Use this for initialization

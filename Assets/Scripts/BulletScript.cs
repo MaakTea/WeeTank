@@ -54,6 +54,9 @@ public class BulletScript : MonoBehaviour {
             return;
         }
 
+        Health h = collider.GetComponentInParent<Health>();
+        if (h != null) h.OnHit(this);
+
         Destroy(this.gameObject);
         destroyed = true;
         GameObject explode = (GameObject)Instantiate(explosion, transform.position, transform.rotation);

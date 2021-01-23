@@ -39,7 +39,7 @@ public class PlayerInput : MonoBehaviour {
 
         // -- Drawing rays from camera to ground --
         Ray ray = mouseCam.ScreenPointToRay(Input.mousePosition);
-        Debug.DrawRay(ray.origin, ray.direction * mouseCam.farClipPlane, Color.gray);
+        //Debug.DrawRay(ray.origin, ray.direction * mouseCam.farClipPlane, Color.gray);
 
         hitValid = Physics.Raycast(ray, out hit);
 

@@ -17,6 +17,9 @@ ToDo:
   - fade in, fade out, UI feedback ("GAME OVER", "VICTORY!")
   - multiple levels
   
+- Graphics 
+  - models: for tank bodies, turrets, barrels
+  - textures (at least ground)
 - Audio: firing, explosion, bounce, tank engine, tracks, turret turn, reload, ...
 - VFX: bullet trails, smoke, sparks, dynamic lights (e.g explosion), etc
 - destructable walls

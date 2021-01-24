@@ -11,9 +11,13 @@ public class Manager : MonoBehaviour
     public List<Transform> respawnPoints;
     public List<GameObject> tanks;
 
+    public UIManager uiManager;
+
 	// Use this for initialization
 	void Start () 
     {
+        Time.timeScale = 1;
+
         Tank[] tank = FindObjectsOfType<Tank>();
         foreach(Tank t in tank) 
         {
@@ -34,18 +38,31 @@ public class Manager : MonoBehaviour
         // -- Restart the level
         if (player == null) 
         {
-            Application.LoadLevel(Application.loadedLevel);
+            uiManager.EnableText(uiManager.lostText);
+            Time.timeScale = 0.5f;
+            StartCoroutine(Wait(5));
         }
         // -- destroyed enemy tanks
         // -- Start the next level
         if(tanks.Count <= 1) 
         {
-            Application.LoadLevel(Application.loadedLevel);
+            uiManager.EnableText(uiManager.victoryText);
+            Time.timeScale = 0.5f;
+            StartCoroutine(Wait(5));
         }
+
+        if (Input.GetKeyDown(KeyCode.V)) uiManager.EnableText(uiManager.victoryText);
 	}
     public void Respawn(GameObject item)
     {
         Destroy(item);
         Instantiate(item);
+    }
+
+    IEnumerator Wait(int seconds) 
+    {
+        yield return new WaitForSecondsRealtime(seconds);
+
+        Application.LoadLevel(Application.loadedLevel);
     }
 }

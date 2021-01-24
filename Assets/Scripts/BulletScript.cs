@@ -38,6 +38,11 @@ public class BulletScript : MonoBehaviour {
 
     void Hit(Collider collider, Collision collision)
     {
+        Health h;
+
+        h = collider.GetComponentInParent<Health>();
+        if (h != null) h.OnHit(this);
+
         if (destroyed) return;
         //Debug.Log(bounceTimer);
         //Debug.Log("Bounces: " + bounces);
@@ -51,12 +56,11 @@ public class BulletScript : MonoBehaviour {
             Bounced(collision.contacts[0].normal);
             bounced = true;
             bounces--;
-            return;
+            if(h == null) 
+            {
+                return;
+            }
         }
-
-        Health h = collider.GetComponentInParent<Health>();
-        //h = collision.collider.GetComponentInParent<Health>();
-        if (h != null) h.OnHit(this);
 
         Destroy(this.gameObject);
         destroyed = true;

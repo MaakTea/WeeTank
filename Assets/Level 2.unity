@@ -51,7 +51,7 @@ LightmapSettings:
     m_AlbedoBoost: 1
     m_TemporalCoherenceThreshold: 1
     m_EnvironmentLightingMode: 0
-    m_EnableBakedLightmaps: 1
+    m_EnableBakedLightmaps: 0
     m_EnableRealtimeLightmaps: 1
   m_LightmapEditorSettings:
     serializedVersion: 9
@@ -4548,12 +4548,12 @@ Prefab:
     - target: {fileID: 224780900326057966, guid: 15a3ffdbfa5457b47b92156beb52b660,
         type: 2}
       propertyPath: m_LocalPosition.x
-      value: -70
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224479598679543166, guid: 15a3ffdbfa5457b47b92156beb52b660,
         type: 2}
       propertyPath: m_LocalPosition.x
-      value: -70
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 114803546790541274, guid: 15a3ffdbfa5457b47b92156beb52b660,
         type: 2}

@@ -40,7 +40,7 @@ public class Manager : MonoBehaviour
         {
             uiManager.EnableText(uiManager.lostText);
             Time.timeScale = 0.5f;
-            StartCoroutine(Wait(5));
+            StartCoroutine(Wait(5,Application.loadedLevel));
         }
         // -- destroyed enemy tanks
         // -- Start the next level
@@ -48,10 +48,8 @@ public class Manager : MonoBehaviour
         {
             uiManager.EnableText(uiManager.victoryText);
             Time.timeScale = 0.5f;
-            StartCoroutine(Wait(5));
+            StartCoroutine(Wait(5, Application.loadedLevel+1));
         }
-
-        if (Input.GetKeyDown(KeyCode.V)) uiManager.EnableText(uiManager.victoryText);
 	}
     public void Respawn(GameObject item)
     {
@@ -59,10 +57,10 @@ public class Manager : MonoBehaviour
         Instantiate(item);
     }
 
-    IEnumerator Wait(int seconds) 
+    IEnumerator Wait(int seconds, int levelIndex) 
     {
         yield return new WaitForSecondsRealtime(seconds);
-
-        Application.LoadLevel(Application.loadedLevel);
+        if (levelIndex != Application.levelCount) Application.LoadLevel(levelIndex);
+        else Application.LoadLevel(0);
     }
 }

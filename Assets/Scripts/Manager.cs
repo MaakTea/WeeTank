@@ -30,10 +30,14 @@ public class Manager : MonoBehaviour
     void Update()
     {
         tanks.RemoveAll(t => t == null);
+        // -- our tank got destroyed
+        // -- Restart the level
         if (player == null) 
         {
             Application.LoadLevel(Application.loadedLevel);
         }
+        // -- destroyed enemy tanks
+        // -- Start the next level
         if(tanks.Count <= 1) 
         {
             Application.LoadLevel(Application.loadedLevel);

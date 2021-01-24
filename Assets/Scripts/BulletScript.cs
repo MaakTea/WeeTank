@@ -55,6 +55,7 @@ public class BulletScript : MonoBehaviour {
         }
 
         Health h = collider.GetComponentInParent<Health>();
+        //h = collision.collider.GetComponentInParent<Health>();
         if (h != null) h.OnHit(this);
 
         Destroy(this.gameObject);

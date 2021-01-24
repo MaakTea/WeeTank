@@ -214,7 +214,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bulletSpeed: 15
-  damage: 50
+  damage: 100
   bounces: 1
   bounced: 0
   bounceTimer: 0

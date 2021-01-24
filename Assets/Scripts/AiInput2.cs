@@ -181,9 +181,10 @@ public class AiInput2 : MonoBehaviour
 		}
     }
 
+    public float viewDistance = 20.0f;
+
     public void UpdateSensors()
     {
-        float viewDistance = 20.0f;
         Vector3 dir = Quaternion.Euler(0, Random.Range(-180, 180), 0) * Vector3.forward;
         Debug.DrawRay(transform.position + Vector3.up, dir * viewDistance, Color.black);
         RaycastHit hit;

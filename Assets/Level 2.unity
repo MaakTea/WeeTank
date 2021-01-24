@@ -996,6 +996,16 @@ Prefab:
       propertyPath: m_Name
       value: Basic Enemy (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 114091448671533030, guid: 5e5def0db565a494f9fe895f2f6bfdce,
+        type: 2}
+      propertyPath: viewDistance
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 23114506344800096, guid: 5e5def0db565a494f9fe895f2f6bfdce,
+        type: 2}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: f778a0b2105bbcf4bbe670694a75ceab, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5e5def0db565a494f9fe895f2f6bfdce, type: 2}
   m_IsPrefabParent: 0
@@ -1251,7 +1261,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4991078923584776, guid: 5e5def0db565a494f9fe895f2f6bfdce, type: 2}
       propertyPath: m_RootOrder
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 114532827109709476, guid: 5e5def0db565a494f9fe895f2f6bfdce,
         type: 2}
@@ -2202,7 +2212,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &466097072
 MonoBehaviour:

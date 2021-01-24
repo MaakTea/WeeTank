@@ -25,9 +25,18 @@ ToDo:
 - destructable walls
 - powerups OR upgrades between rounds
   - tank: max speed, acceleration, deceleration, turn rate, turn acceleration(momentum), max speed while turning(!)
-  - turret: turn rate, turn acceelration, fire rate (reload)
+  - turret: turn rate, turn acceleration, fire rate (reload)
+  - cannon?
   - bullet: speed, lifetime, bounces, damage, AOE, ...
 
 - same screen multiplayer (co-op vs AIs, PvP)
   - gamepad input
   - test in Parsec
+
+- DAMAGE SYSTEM DESIGN!
+  - Should bullets remain single-hit kill? Probably not. 
+  - Should they have infinite ammo? Probably yes. :)
+  - It would be interesting if bullets wouldn't always deal the same damage, but have a chance* to deal damage, like in an RPG: hit/miss/critical, random* value, so upgrades (to both bullets/cannon and to armor) could affect the range and probabilities of how much damage an impact deals :)
+  - Should tank have a simple total "health", or should they receive damage to specific parts/functionalities? Could create more heroic fights and "near misses" :) Decreased movement speed, turn speed, turn limited to one way, no reverse or no forwards, getting immobilised, turret rotation speed, reload time, etc :)
+  - Should they have some kind of repair?
+

@@ -21,7 +21,9 @@ ToDo:
   - models: for tank bodies, turrets, barrels
   - textures (at least ground)
 - Audio: firing, explosion, bounce, tank engine, tracks, turret turn, reload, ...
-- VFX: bullet trails, smoke, sparks, dynamic lights (e.g explosion), etc
+- VFX: bullet trails, smoke, sparks, dynamic lights (e.g explosion), hitmarks, etc
+- destroyed tanks should leave at least a mark
+  - but maybe even stay there as wreck?
 - destructable walls
 - powerups OR upgrades between rounds
   - tank: max speed, acceleration, deceleration, turn rate, turn acceleration(momentum), max speed while turning(!)

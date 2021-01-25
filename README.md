@@ -1,6 +1,7 @@
 # WeeTank
 a project similar to wii tanks
 
+![screenshot](./Images/weetanks1.png)
 
 ToDo:
 - AI: stop pushing walls. options/parts

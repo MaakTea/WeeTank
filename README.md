@@ -29,7 +29,14 @@ ToDo:
 - VFX: bullet trails, smoke, sparks, dynamic lights (e.g explosion), hitmarks, etc
 - destroyed tanks should leave at least a mark
   - but maybe even stay there as wreck?
-- destructable walls
+
+- destructable walls* (* trees, etc)
+  - walls that can be destroyed by driving into
+  - maybe, full walls could turn into half walls when damaged?
+  - could half walls be destroyed?
+  - "holes": ground you can see over and shoot over but cannot move across
+  - "mud": same but only slows you down
+
 - powerups OR upgrades between rounds
   - tank: max speed, acceleration, deceleration, turn rate, turn acceleration(momentum), max speed while turning(!)
   - turret: turn rate, turn acceleration, fire rate (reload)

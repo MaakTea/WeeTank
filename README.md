@@ -38,5 +38,5 @@ ToDo:
   - Should they have infinite ammo? Probably yes. :)
   - It would be interesting if bullets wouldn't always deal the same damage, but have a chance* to deal damage, like in an RPG: hit/miss/critical, random* value, so upgrades (to both bullets/cannon and to armor) could affect the range and probabilities of how much damage an impact deals :)
   - Should tank have a simple total "health", or should they receive damage to specific parts/functionalities? Could create more heroic fights and "near misses" :) Decreased movement speed, turn speed, turn limited to one way, no reverse or no forwards, getting immobilised, turret rotation speed, reload time, etc :)
-  - Should they have some kind of repair?
+  - Should they have some kind of repair? Either built into the tank ("self-heal"), powerup, or repair points between levels, etc?
 

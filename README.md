@@ -10,6 +10,11 @@ ToDo:
 - stop tanks turning over
   - change movement to use physics forces instead of small teleports
 - separate MOVE target and AIM target for tanks :) 
+- multiple AI types/levels (behaviour, regardless of what tank it's driving)
+  - how aggressive it is vs how defensive,
+  - visibility range,
+  - reaction time,
+  - etc
 
 - keep working on new AI
 - hits to actually deal damage, destroy tanks
@@ -34,6 +39,8 @@ ToDo:
 - same screen multiplayer (co-op vs AIs, PvP)
   - gamepad input
   - test in Parsec
+
+- Question: visibility for players? i.e. hide enemy tanks that are not visible
 
 - DAMAGE SYSTEM DESIGN!
   - Should bullets remain single-hit kill? Probably not. 

@@ -27,7 +27,7 @@ ToDo:
   - models: for tank bodies, turrets, barrels
   - textures (at least ground)
 - Audio: firing, explosion, bounce, tank engine, tracks, turret turn, reload, ...
-- VFX: bullet trails, smoke, sparks, dynamic lights (e.g explosion), hitmarks, etc
+- VFX: firing, bullet trails, smoke, sparks, dynamic lights (e.g explosion), hitmarks, etc
 - destroyed tanks should leave at least a mark
   - but maybe even stay there as wreck?
 

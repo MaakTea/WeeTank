@@ -24,8 +24,11 @@ public class Turret : MonoBehaviour
     public float reloadSpeed;
     public float reloadTimer;
 
-    // Use this for initialization
-    void Start()
+	public AudioSource audio_turret;
+	public float currentTurnSpeed;
+
+	// Use this for initialization
+	void Start()
     {
     }
 
@@ -39,11 +42,17 @@ public class Turret : MonoBehaviour
 
             // -- setting the euler angle to rotate to --
             Vector3 euler = Quaternion.LookRotation(targetPos - transform.position).eulerAngles;
-            //transform.rotation = Quaternion.Euler(new Vector3(0, euler.y, 0));
-            // -- rotating towards the euler angle --
+			//transform.rotation = Quaternion.Euler(new Vector3(0, euler.y, 0));
+
+			currentTurnSpeed = Mathf.Clamp( (euler.y - transform.rotation.eulerAngles.y), -turnSpeed, turnSpeed);
+
+			// -- rotating towards the euler angle --
             transform.rotation = Quaternion.RotateTowards(transform.rotation, Quaternion.Euler(new Vector3(0, euler.y, 0)), turnSpeed * Time.deltaTime);
             //barrel.localRotation = Quaternion.Euler(new Vector3(euler.x, 0, 0));
-        }
+        } else
+		{
+			currentTurnSpeed = 0;
+		}
 
         //transform.rotation *= Quaternion.Euler(0, 0, -rotInput * turnSpeed * Time.deltaTime);
         //transform.rotation *= Quaternion.RotateTowards(transform.rotation, rotateToMouse, turnSpeed);
@@ -63,7 +72,10 @@ public class Turret : MonoBehaviour
         {
             reloadTimer -= Time.deltaTime;
         }
-    }
+
+		UpdateAudio();
+
+	}
 
     void Reload()
     {
@@ -80,4 +92,16 @@ public class Turret : MonoBehaviour
         // -- setting the owner --
         bs.owner = transform.parent.gameObject;
     }
+
+	void UpdateAudio()
+	{
+		if (audio_turret)
+		{
+			if (!audio_turret.isPlaying)
+				audio_turret.Play();
+			float f = Mathf.Clamp01(Mathf.Abs(currentTurnSpeed));
+			audio_turret.volume = Mathf.Lerp(audio_turret.volume, Mathf.Lerp(0.0f, 0.3f, f), Time.deltaTime / 0.1f);
+			audio_turret.pitch = Mathf.Lerp(audio_turret.pitch, Mathf.Lerp(0.5f, 1.0f, f), Time.deltaTime / 0.1f);
+		}
+	}
 }

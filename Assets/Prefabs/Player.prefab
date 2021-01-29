@@ -820,9 +820,9 @@ MonoBehaviour:
   rotInput: 0
   mouseLocation: {x: 0, y: 0, z: 0}
   rotateToMouse: {x: 0, y: 0, z: 0, w: 0}
-  turnSpeed: 250
+  turnSpeed: 150
   fireInput: 0
-  reloadSpeed: 1
+  reloadSpeed: 2
   reloadTimer: 0
   audio_turret: {fileID: 82909624734507256}
   currentTurnSpeed: 0
@@ -855,6 +855,7 @@ MonoBehaviour:
   steering: 0
   gas: 0
   moveSpeed: 5
+  reverseSpeed: 3
   turnSpeed: 90
   team: 0
   hitbox: {fileID: 4334662158525806}

@@ -7,6 +7,7 @@ public class AiInput2 : MonoBehaviour
     public Tank tankScript;
     public Turret turretScript;
 
+	public float viewDistance = 20.0f;
 	public float viewHeight = 1.5f;
 
 	public enum TargetType
@@ -50,8 +51,6 @@ public class AiInput2 : MonoBehaviour
     public List<Target> currentTargets = new List<Target>();    //incl. "memory"
     public List<Action> possibleActions = new List<Action>();
 
-    //public float reloadSpeed;
-    //public float reloadTimer = 5;
 
     // Use this for initialization
     void Start ()
@@ -181,7 +180,6 @@ public class AiInput2 : MonoBehaviour
 		}
     }
 
-    public float viewDistance = 20.0f;
 
     public void UpdateSensors()
     {

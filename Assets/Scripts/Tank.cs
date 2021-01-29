@@ -9,8 +9,9 @@ public class Tank : MonoBehaviour
     [Range(-1,1)]
     public float gas;
 
-    public float moveSpeed = 1;
-    public float turnSpeed = 1;
+    public float moveSpeed = 5;
+	public float reverseSpeed = 3;
+	public float turnSpeed = 60;
 	public int team;
 
     public Transform hitbox;
@@ -30,10 +31,11 @@ public class Tank : MonoBehaviour
         float x = steering;
         float y = gas;
 
-        transform.rotation *= Quaternion.Euler(0, x         * turnSpeed * Time.deltaTime, 0);
+        transform.rotation *= Quaternion.Euler(0, x * turnSpeed * Time.deltaTime, 0);
 		//Vector3 rot = new Vector3(Mathf.Cos((transform.rotation.eulerAngles.z + 90) * Mathf.Deg2Rad), Mathf.Sin((transform.rotation.eulerAngles.z + 90) * Mathf.Deg2Rad), 0); //player.rotation.eulerAngles.z
 
-		transform.position += transform.forward * y         * moveSpeed * Time.deltaTime;
+		float speed = y > 0 ? moveSpeed : reverseSpeed;
+		transform.position += transform.forward * y * speed * Time.deltaTime;
 
 		UpdateAudio();
     }

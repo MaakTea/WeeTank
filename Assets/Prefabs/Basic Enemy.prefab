@@ -645,7 +645,7 @@ BoxCollider:
   m_GameObject: {fileID: 1140240325329832}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
@@ -902,10 +902,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tankScript: {fileID: 114284583271102708}
   turretScript: {fileID: 114552851687936482}
+  viewDistance: 30
   viewHeight: 1.5
   currentTargets: []
   possibleActions: []
-  viewDistance: 20
 --- !u!114 &114284583271102708
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -969,9 +969,9 @@ MonoBehaviour:
   rotInput: 0
   mouseLocation: {x: 0, y: 0, z: 0}
   rotateToMouse: {x: 0, y: 0, z: 0, w: 0}
-  turnSpeed: 250
+  turnSpeed: 150
   fireInput: 0
-  reloadSpeed: 1
+  reloadSpeed: 2
   reloadTimer: 0
   audio_turret: {fileID: 82948309831879780}
   currentTurnSpeed: 0

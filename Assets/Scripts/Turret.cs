@@ -59,7 +59,7 @@ public class Turret : MonoBehaviour
 
         //Debug.DrawRay(transform.position, mouseLocation*5, Color.red);
 
-        // -- Fireing --
+        // -- Firing --
         if (reloadTimer <= 0)
         {
             if (fireInput)

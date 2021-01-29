@@ -1094,6 +1094,52 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   victoryText: {fileID: 896887731}
   lostText: {fileID: 2024911215}
+--- !u!1001 &762276098
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4119923062597564, guid: f5c1aa15971dcdc41973e060cbb4efd9, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -23.39
+      objectReference: {fileID: 0}
+    - target: {fileID: 4119923062597564, guid: f5c1aa15971dcdc41973e060cbb4efd9, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4119923062597564, guid: f5c1aa15971dcdc41973e060cbb4efd9, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -18.13
+      objectReference: {fileID: 0}
+    - target: {fileID: 4119923062597564, guid: f5c1aa15971dcdc41973e060cbb4efd9, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4119923062597564, guid: f5c1aa15971dcdc41973e060cbb4efd9, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4119923062597564, guid: f5c1aa15971dcdc41973e060cbb4efd9, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4119923062597564, guid: f5c1aa15971dcdc41973e060cbb4efd9, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4119923062597564, guid: f5c1aa15971dcdc41973e060cbb4efd9, type: 2}
+      propertyPath: m_RootOrder
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 1000653291457882, guid: f5c1aa15971dcdc41973e060cbb4efd9, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: f5c1aa15971dcdc41973e060cbb4efd9, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1001 &854303430
 Prefab:
   m_ObjectHideFlags: 0
@@ -1167,6 +1213,12 @@ Prefab:
       propertyPath: targets.Array.data[2]
       value: 
       objectReference: {fileID: 1289320577}
+    - target: {fileID: 114609438448752020, guid: 5e5def0db565a494f9fe895f2f6bfdce,
+        type: 2}
+      propertyPath: onDeathPrefab
+      value: 
+      objectReference: {fileID: 1000653291457882, guid: f5c1aa15971dcdc41973e060cbb4efd9,
+        type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5e5def0db565a494f9fe895f2f6bfdce, type: 2}
   m_IsPrefabParent: 0

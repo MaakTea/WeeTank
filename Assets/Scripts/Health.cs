@@ -2,12 +2,15 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Health : MonoBehaviour {
+public class Health : MonoBehaviour
+{
 
-    public Manager manager;
+    //public Manager manager;
 
     public int baseHealth = 100;
     public int currentHealth;
+
+	public GameObject onDeathPrefab;
 
 	// Use this for initialization
 	void Start () 
@@ -27,6 +30,10 @@ public class Health : MonoBehaviour {
         if (currentHealth <= 0) 
         {
             Destroy(this.gameObject);
+			if (onDeathPrefab != null)
+			{
+				Instantiate(onDeathPrefab, this.transform.position, this.transform.rotation);
+			}
         }
     }
 }

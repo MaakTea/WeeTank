@@ -22,7 +22,7 @@ public class Manager : MonoBehaviour
         Time.timeScale = 1;
 
         Tank[] tank = FindObjectsOfType<Tank>();
-        foreach(Tank t in tank) 
+        foreach(Tank t in tank)
         {
             tanks.Add(t.gameObject);
         }
@@ -73,8 +73,15 @@ public class Manager : MonoBehaviour
                 Application.LoadLevel(Application.loadedLevel);
             }
         }
+        if (autoPlay) 
+        { 
+            
+        }
 	}
+<<<<<<< Updated upstream
 
+=======
+>>>>>>> Stashed changes
     public void Spawn(GameObject item, Transform pos)
     {
         Instantiate(item, pos);

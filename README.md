@@ -26,10 +26,21 @@ ToDo:
 - LEVELS!
   - need a list of potential level ideas (enough to throw away some if they are not good enough) and start blocking them out
     - forest
-    - factory
+    - village
     - town
+    - factory
+    - bridge
     - ...
-    
+  - also think about the different gameplay mechanics different obstacles create or promote. We have...
+    - FULL WALLS that block everything: movement, visibility, shooting
+    - HALF walls that block movement but allow visibilityand shooting
+    - DESTRUCTABLE (full) walls (by shooting)
+    COULD have...
+    - destructable half walls?
+    - "holes" that blocks movement but allows shooting like half walls, but cannot be destroyed
+    - walls that can be destroyed by driving into
+    - "mud" that allows movement but slows it down
+    - ...
 
 - Graphics 
   - models: for tank bodies, turrets, barrels

@@ -326,7 +326,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1764264039417176}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -25.07, y: 0, z: -24.82}
+  m_LocalPosition: {x: -0.39, y: 0, z: 0.05}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4334662158525806}
@@ -840,6 +840,7 @@ MonoBehaviour:
   tankScript: {fileID: 114888158996640940}
   turretScript: {fileID: 114679761793641996}
   mouseCam: {fileID: 0}
+  minTargetDistance: 5
   hitValid: 0
 --- !u!114 &114888158996640940
 MonoBehaviour:
@@ -861,6 +862,8 @@ MonoBehaviour:
   hitbox: {fileID: 4334662158525806}
   audio_engine: {fileID: 82831761209482034}
   audio_track: {fileID: 82168561881955752}
+  currentThrottle: 0
+  currentTurn: 0
 --- !u!114 &114892339461085720
 MonoBehaviour:
   m_ObjectHideFlags: 1

@@ -2,14 +2,16 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerInput : MonoBehaviour {
+public class PlayerInput : MonoBehaviour
+{
 
     public Tank tankScript;
     public Turret turretScript;
 
     public Camera mouseCam;
+	public float minTargetDistance = 10;
 
-    public bool hitValid;
+	public bool hitValid;
     public RaycastHit hit;
 
 
@@ -44,7 +46,7 @@ public class PlayerInput : MonoBehaviour {
         hitValid = Physics.Raycast(ray, out hit);
 
 
-        turretScript.targetValid = hitValid;
+		turretScript.targetValid = hitValid && (hit.point - turretScript.transform.position).magnitude >= minTargetDistance;
         turretScript.targetPos = hit.point;
         turretScript.fireInput = Input.GetMouseButton(0);
         turretScript.reloadSpeed = 1;

@@ -22,7 +22,15 @@ ToDo:
 - win/lose (game over) condition and (re)start (next) level
   - fade in, fade out, UI feedback ("GAME OVER", "VICTORY!")
   - multiple levels
-  
+
+- LEVELS!
+  - need a list of potential level ideas (enough to throw away some if they are not good enough) and start blocking them out
+    - forest
+    - factory
+    - town
+    - ...
+    
+
 - Graphics 
   - models: for tank bodies, turrets, barrels
   - textures (at least ground)

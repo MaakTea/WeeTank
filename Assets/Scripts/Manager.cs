@@ -23,34 +23,40 @@ public class Manager : MonoBehaviour
         {
             tanks.Add(t.gameObject);
         }
-        Transform[] rs = FindObjectsOfType<Transform>();
-        foreach(Transform t in rs) 
-        {
+
+        //Transform[] rs = FindObjectsOfType<Transform>();
+        //foreach(Transform t in rs) 
+        //{
             //if (t.parent.tag == "Respawn") respawnPoints.Add(t);
-        }
+        //}
 	}
 
     // Update is called once per frame
     void Update()
     {
         tanks.RemoveAll(t => t == null);
-        // -- our tank got destroyed
+        
+		// -- our tank got destroyed
         // -- Restart the level
         if (player == null) 
         {
             uiManager.EnableText(uiManager.lostText);
             Time.timeScale = 0.5f;
-            StartCoroutine(Wait(5,Application.loadedLevel));
+            StartCoroutine(Wait(5, Application.loadedLevel));
+			return;
         }
-        // -- destroyed enemy tanks
+        
+		// -- destroyed enemy tanks
         // -- Start the next level
         if(tanks.Count <= 1) 
         {
             uiManager.EnableText(uiManager.victoryText);
             Time.timeScale = 0.5f;
             StartCoroutine(Wait(5, Application.loadedLevel+1));
+			return;
         }
 	}
+
     public void Respawn(GameObject item)
     {
         Destroy(item);

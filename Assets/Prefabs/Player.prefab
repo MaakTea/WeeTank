@@ -326,7 +326,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1764264039417176}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.39, y: 0, z: 0.05}
+  m_LocalPosition: {x: -25.07, y: 0, z: -24.82}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4334662158525806}
@@ -876,6 +876,9 @@ MonoBehaviour:
   currentHealth: 0
   onDeathPrefab: {fileID: 1000653291457882, guid: f5c1aa15971dcdc41973e060cbb4efd9,
     type: 2}
+  leaveBehind:
+  - {fileID: 1327095286188962}
+  - {fileID: 1612631811726218}
 --- !u!198 &198661257464616626
 ParticleSystem:
   m_ObjectHideFlags: 1

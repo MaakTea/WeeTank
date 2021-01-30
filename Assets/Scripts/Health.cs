@@ -11,6 +11,7 @@ public class Health : MonoBehaviour
     public int currentHealth;
 
 	public GameObject onDeathPrefab;
+	public GameObject[] leaveBehind;
 
 	// Use this for initialization
 	void Start () 
@@ -29,7 +30,12 @@ public class Health : MonoBehaviour
         currentHealth -= bullet.damage;
         if (currentHealth <= 0) 
         {
-            Destroy(this.gameObject);
+			foreach (GameObject go in leaveBehind)
+				if (go != null)
+					go.transform.SetParent(this.gameObject.transform.parent, true);
+
+			Destroy(this.gameObject);
+
 			if (onDeathPrefab != null)
 			{
 				Instantiate(onDeathPrefab, this.transform.position, this.transform.rotation);

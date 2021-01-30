@@ -137,6 +137,7 @@ public class AiInput2 : MonoBehaviour
 			//or do a default action here
 			turretScript.targetValid = false;
 			turretScript.fireInput = false;
+			//ToDo: make the turret look forwards or scan
 		}
 	}
 

@@ -401,7 +401,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1523706951500070}
   m_LocalRotation: {x: -0, y: -0.6945511, z: -0, w: 0.7194434}
-  m_LocalPosition: {x: 23.96, y: 4.413912e-17, z: 32.8}
+  m_LocalPosition: {x: 24.922272, y: -5.3736928e-17, z: 24.200958}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4442879726542036}
@@ -920,6 +920,7 @@ MonoBehaviour:
   steering: 0
   gas: 0
   moveSpeed: 5
+  reverseSpeed: 3
   turnSpeed: 90
   team: 1
   hitbox: {fileID: 4202776240010630}
@@ -941,7 +942,6 @@ MonoBehaviour:
   agent: {fileID: 195167101513613164}
   target: {fileID: 0}
   targets:
-  - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
@@ -990,6 +990,9 @@ MonoBehaviour:
   currentHealth: 0
   onDeathPrefab: {fileID: 1000653291457882, guid: f5c1aa15971dcdc41973e060cbb4efd9,
     type: 2}
+  leaveBehind:
+  - {fileID: 1389693320785258}
+  - {fileID: 1934732607639336}
 --- !u!195 &195167101513613164
 NavMeshAgent:
   m_ObjectHideFlags: 1
@@ -1071,7 +1074,7 @@ ParticleSystem:
   moveWithTransform: 1
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
-  randomSeed: 2032159384
+  randomSeed: -1593190428
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -4388,7 +4391,7 @@ ParticleSystem:
   moveWithTransform: 1
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
-  randomSeed: 334954200
+  randomSeed: 1624206749
   InitialModule:
     serializedVersion: 3
     enabled: 1

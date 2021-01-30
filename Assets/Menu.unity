@@ -51,7 +51,7 @@ LightmapSettings:
     m_AlbedoBoost: 1
     m_TemporalCoherenceThreshold: 1
     m_EnvironmentLightingMode: 0
-    m_EnableBakedLightmaps: 0
+    m_EnableBakedLightmaps: 1
     m_EnableRealtimeLightmaps: 1
   m_LightmapEditorSettings:
     serializedVersion: 9
@@ -64,8 +64,7 @@ LightmapSettings:
     m_CompAOExponent: 1
     m_CompAOExponentDirect: 0
     m_Padding: 2
-    m_LightmapParameters: {fileID: 15203, guid: 0000000000000000f000000000000000,
-      type: 0}
+    m_LightmapParameters: {fileID: 0}
     m_LightmapsBakeMode: 1
     m_TextureCompression: 1
     m_FinalGather: 0
@@ -89,8 +88,7 @@ LightmapSettings:
     m_PVRFilteringAtrousPositionSigmaDirect: 0.5
     m_PVRFilteringAtrousPositionSigmaIndirect: 2
     m_PVRFilteringAtrousPositionSigmaAO: 1
-  m_LightingDataAsset: {fileID: 112000476, guid: 5a593e335ecf64b41b5c145a6b5f084b,
-    type: 2}
+  m_LightingDataAsset: {fileID: 0}
   m_UseShadowmask: 1
 --- !u!196 &4
 NavMeshSettings:
@@ -99,7 +97,11 @@ NavMeshSettings:
   m_BuildSettings:
     serializedVersion: 2
     agentTypeID: 0
+<<<<<<< Updated upstream
     agentRadius: 1
+=======
+    agentRadius: 0.5
+>>>>>>> Stashed changes
     agentHeight: 2
     agentSlope: 45
     agentClimb: 0.4
@@ -107,13 +109,21 @@ NavMeshSettings:
     maxJumpAcrossDistance: 0
     minRegionArea: 2
     manualCellSize: 0
+<<<<<<< Updated upstream
     cellSize: 0.33333334
+=======
+    cellSize: 0.16666667
+>>>>>>> Stashed changes
     manualTileSize: 0
     tileSize: 256
     accuratePlacement: 0
     debug:
       m_Flags: 0
-  m_NavMeshData: {fileID: 23800000, guid: 153a6e006ae351d41931a042f41b7790, type: 2}
+<<<<<<< Updated upstream
+  m_NavMeshData: {fileID: 23800000, guid: c2aff0269f9175e468791e3a6d2b0c67, type: 2}
+=======
+  m_NavMeshData: {fileID: 0}
+>>>>>>> Stashed changes
 --- !u!1001 &2676072
 Prefab:
   m_ObjectHideFlags: 0
@@ -157,10 +167,13 @@ Prefab:
       propertyPath: m_Name
       value: Sandbag (Bottom) (11)
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1170542294313720, guid: ac5d7c9949f7ec34ca17c654c0acecca, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ac5d7c9949f7ec34ca17c654c0acecca, type: 2}
   m_IsPrefabParent: 0
@@ -224,10 +237,13 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1136881740606342, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
   m_IsPrefabParent: 0
@@ -291,10 +307,13 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1170542294313720, guid: ac5d7c9949f7ec34ca17c654c0acecca, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ac5d7c9949f7ec34ca17c654c0acecca, type: 2}
   m_IsPrefabParent: 0
@@ -356,6 +375,7 @@ Prefab:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1796163866934964, guid: 0574f7d8188ac464b88d67e5ee733df5, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
@@ -364,6 +384,8 @@ Prefab:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0574f7d8188ac464b88d67e5ee733df5, type: 2}
   m_IsPrefabParent: 0
@@ -415,10 +437,13 @@ Prefab:
       propertyPath: m_Name
       value: Wall (124)
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1136881740606342, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
   m_IsPrefabParent: 0
@@ -470,10 +495,13 @@ Prefab:
       propertyPath: m_Name
       value: Sandbag (Bottom) (23)
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1170542294313720, guid: ac5d7c9949f7ec34ca17c654c0acecca, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ac5d7c9949f7ec34ca17c654c0acecca, type: 2}
   m_IsPrefabParent: 0
@@ -537,10 +565,13 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1136881740606342, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
   m_IsPrefabParent: 0
@@ -602,6 +633,7 @@ Prefab:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1796163866934964, guid: 0574f7d8188ac464b88d67e5ee733df5, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
@@ -610,6 +642,8 @@ Prefab:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0574f7d8188ac464b88d67e5ee733df5, type: 2}
   m_IsPrefabParent: 0
@@ -661,10 +695,13 @@ Prefab:
       propertyPath: m_Name
       value: Sandbag (Bottom) (20)
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1170542294313720, guid: ac5d7c9949f7ec34ca17c654c0acecca, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ac5d7c9949f7ec34ca17c654c0acecca, type: 2}
   m_IsPrefabParent: 0
@@ -728,10 +765,13 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1136881740606342, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
   m_IsPrefabParent: 0
@@ -783,10 +823,13 @@ Prefab:
       propertyPath: m_Name
       value: Wall (130)
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1136881740606342, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
   m_IsPrefabParent: 0
@@ -795,6 +838,7 @@ Transform:
   m_PrefabParentObject: {fileID: 4561862935511068, guid: e9700d13917c27340946fe5c0faa8f3c,
     type: 2}
   m_PrefabInternal: {fileID: 61036400}
+<<<<<<< Updated upstream
 --- !u!1 &70446859
 GameObject:
   m_ObjectHideFlags: 0
@@ -886,6 +930,8 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 70446859}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+=======
+>>>>>>> Stashed changes
 --- !u!1001 &72119492
 Prefab:
   m_ObjectHideFlags: 0
@@ -929,10 +975,13 @@ Prefab:
       propertyPath: m_Name
       value: Wall (126)
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1136881740606342, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
   m_IsPrefabParent: 0
@@ -996,10 +1045,13 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1170542294313720, guid: ac5d7c9949f7ec34ca17c654c0acecca, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ac5d7c9949f7ec34ca17c654c0acecca, type: 2}
   m_IsPrefabParent: 0
@@ -1051,10 +1103,13 @@ Prefab:
       propertyPath: m_Name
       value: Sandbag (Bottom) (51)
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1170542294313720, guid: ac5d7c9949f7ec34ca17c654c0acecca, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ac5d7c9949f7ec34ca17c654c0acecca, type: 2}
   m_IsPrefabParent: 0
@@ -1118,10 +1173,13 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1170542294313720, guid: ac5d7c9949f7ec34ca17c654c0acecca, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ac5d7c9949f7ec34ca17c654c0acecca, type: 2}
   m_IsPrefabParent: 0
@@ -1183,6 +1241,7 @@ Prefab:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1570573681725196, guid: 0574f7d8188ac464b88d67e5ee733df5, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
@@ -1191,6 +1250,8 @@ Prefab:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0574f7d8188ac464b88d67e5ee733df5, type: 2}
   m_IsPrefabParent: 0
@@ -1252,6 +1313,7 @@ Prefab:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1570573681725196, guid: 0574f7d8188ac464b88d67e5ee733df5, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
@@ -1260,6 +1322,8 @@ Prefab:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0574f7d8188ac464b88d67e5ee733df5, type: 2}
   m_IsPrefabParent: 0
@@ -1321,6 +1385,7 @@ Prefab:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1796163866934964, guid: 0574f7d8188ac464b88d67e5ee733df5, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
@@ -1329,6 +1394,8 @@ Prefab:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0574f7d8188ac464b88d67e5ee733df5, type: 2}
   m_IsPrefabParent: 0
@@ -1390,6 +1457,7 @@ Prefab:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1796163866934964, guid: 0574f7d8188ac464b88d67e5ee733df5, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
@@ -1398,6 +1466,8 @@ Prefab:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0574f7d8188ac464b88d67e5ee733df5, type: 2}
   m_IsPrefabParent: 0
@@ -1449,10 +1519,13 @@ Prefab:
       propertyPath: m_Name
       value: Sandbag (Bottom) (3)
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1170542294313720, guid: ac5d7c9949f7ec34ca17c654c0acecca, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ac5d7c9949f7ec34ca17c654c0acecca, type: 2}
   m_IsPrefabParent: 0
@@ -1504,10 +1577,13 @@ Prefab:
       propertyPath: m_Name
       value: Sandbag (Bottom) (24)
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1170542294313720, guid: ac5d7c9949f7ec34ca17c654c0acecca, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ac5d7c9949f7ec34ca17c654c0acecca, type: 2}
   m_IsPrefabParent: 0
@@ -1571,10 +1647,13 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1136881740606342, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
   m_IsPrefabParent: 0
@@ -1636,6 +1715,7 @@ Prefab:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1796163866934964, guid: 0574f7d8188ac464b88d67e5ee733df5, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
@@ -1644,6 +1724,8 @@ Prefab:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0574f7d8188ac464b88d67e5ee733df5, type: 2}
   m_IsPrefabParent: 0
@@ -1707,10 +1789,13 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1136881740606342, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
   m_IsPrefabParent: 0
@@ -1762,10 +1847,13 @@ Prefab:
       propertyPath: m_Name
       value: Sandbag (Bottom) (7)
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1170542294313720, guid: ac5d7c9949f7ec34ca17c654c0acecca, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ac5d7c9949f7ec34ca17c654c0acecca, type: 2}
   m_IsPrefabParent: 0
@@ -1817,10 +1905,13 @@ Prefab:
       propertyPath: m_Name
       value: Wall (97)
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1136881740606342, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
   m_IsPrefabParent: 0
@@ -1872,10 +1963,13 @@ Prefab:
       propertyPath: m_Name
       value: Wall (166)
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1136881740606342, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
   m_IsPrefabParent: 0
@@ -1937,6 +2031,7 @@ Prefab:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1796163866934964, guid: 0574f7d8188ac464b88d67e5ee733df5, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
@@ -1945,6 +2040,8 @@ Prefab:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0574f7d8188ac464b88d67e5ee733df5, type: 2}
   m_IsPrefabParent: 0
@@ -2008,10 +2105,13 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1170542294313720, guid: ac5d7c9949f7ec34ca17c654c0acecca, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ac5d7c9949f7ec34ca17c654c0acecca, type: 2}
   m_IsPrefabParent: 0
@@ -2075,10 +2175,13 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1170542294313720, guid: ac5d7c9949f7ec34ca17c654c0acecca, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ac5d7c9949f7ec34ca17c654c0acecca, type: 2}
   m_IsPrefabParent: 0
@@ -2140,6 +2243,7 @@ Prefab:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1796163866934964, guid: 0574f7d8188ac464b88d67e5ee733df5, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
@@ -2148,6 +2252,8 @@ Prefab:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0574f7d8188ac464b88d67e5ee733df5, type: 2}
   m_IsPrefabParent: 0
@@ -2211,10 +2317,13 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1136881740606342, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
   m_IsPrefabParent: 0
@@ -2276,6 +2385,7 @@ Prefab:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1796163866934964, guid: 0574f7d8188ac464b88d67e5ee733df5, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
@@ -2284,6 +2394,8 @@ Prefab:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0574f7d8188ac464b88d67e5ee733df5, type: 2}
   m_IsPrefabParent: 0
@@ -2345,6 +2457,7 @@ Prefab:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1796163866934964, guid: 0574f7d8188ac464b88d67e5ee733df5, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
@@ -2353,6 +2466,8 @@ Prefab:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0574f7d8188ac464b88d67e5ee733df5, type: 2}
   m_IsPrefabParent: 0
@@ -2416,10 +2531,13 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1136881740606342, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
   m_IsPrefabParent: 0
@@ -2483,10 +2601,13 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1136881740606342, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
   m_IsPrefabParent: 0
@@ -2548,6 +2669,7 @@ Prefab:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1796163866934964, guid: 0574f7d8188ac464b88d67e5ee733df5, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
@@ -2556,6 +2678,8 @@ Prefab:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0574f7d8188ac464b88d67e5ee733df5, type: 2}
   m_IsPrefabParent: 0
@@ -2607,10 +2731,13 @@ Prefab:
       propertyPath: m_Name
       value: Wall (146)
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1136881740606342, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
   m_IsPrefabParent: 0
@@ -2662,10 +2789,13 @@ Prefab:
       propertyPath: m_Name
       value: Wall (110)
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1136881740606342, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
   m_IsPrefabParent: 0
@@ -2727,6 +2857,7 @@ Prefab:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1796163866934964, guid: 0574f7d8188ac464b88d67e5ee733df5, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
@@ -2735,6 +2866,8 @@ Prefab:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0574f7d8188ac464b88d67e5ee733df5, type: 2}
   m_IsPrefabParent: 0
@@ -2798,10 +2931,13 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1136881740606342, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
   m_IsPrefabParent: 0
@@ -2853,10 +2989,13 @@ Prefab:
       propertyPath: m_Name
       value: Wall (145)
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1136881740606342, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
   m_IsPrefabParent: 0
@@ -2918,6 +3057,7 @@ Prefab:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1796163866934964, guid: 0574f7d8188ac464b88d67e5ee733df5, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
@@ -2926,6 +3066,8 @@ Prefab:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0574f7d8188ac464b88d67e5ee733df5, type: 2}
   m_IsPrefabParent: 0
@@ -2987,6 +3129,7 @@ Prefab:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1570573681725196, guid: 0574f7d8188ac464b88d67e5ee733df5, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
@@ -2995,6 +3138,8 @@ Prefab:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0574f7d8188ac464b88d67e5ee733df5, type: 2}
   m_IsPrefabParent: 0
@@ -3046,10 +3191,13 @@ Prefab:
       propertyPath: m_Name
       value: Sandbag (Bottom) (54)
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1170542294313720, guid: ac5d7c9949f7ec34ca17c654c0acecca, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ac5d7c9949f7ec34ca17c654c0acecca, type: 2}
   m_IsPrefabParent: 0
@@ -3101,10 +3249,13 @@ Prefab:
       propertyPath: m_Name
       value: Wall (87)
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1136881740606342, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
   m_IsPrefabParent: 0
@@ -3156,10 +3307,13 @@ Prefab:
       propertyPath: m_Name
       value: Wall (131)
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1136881740606342, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
   m_IsPrefabParent: 0
@@ -3223,10 +3377,13 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1136881740606342, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
   m_IsPrefabParent: 0
@@ -3290,10 +3447,13 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1136881740606342, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
   m_IsPrefabParent: 0
@@ -3345,10 +3505,13 @@ Prefab:
       propertyPath: m_Name
       value: Wall (54)
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1136881740606342, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
   m_IsPrefabParent: 0
@@ -3400,10 +3563,13 @@ Prefab:
       propertyPath: m_Name
       value: Wall (13)
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1136881740606342, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
   m_IsPrefabParent: 0
@@ -3419,11 +3585,14 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+<<<<<<< Updated upstream
     - target: {fileID: 114820978789277032, guid: f1996046833eeae41b3a3dbd119efc9c,
         type: 2}
       propertyPath: tanks.Array.size
       value: 0
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     - target: {fileID: 4261926431157366, guid: f1996046833eeae41b3a3dbd119efc9c, type: 2}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -3456,11 +3625,14 @@ Prefab:
       propertyPath: m_RootOrder
       value: 6
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 114820978789277032, guid: f1996046833eeae41b3a3dbd119efc9c,
         type: 2}
       propertyPath: autoPlay
       value: 1
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f1996046833eeae41b3a3dbd119efc9c, type: 2}
   m_IsPrefabParent: 0
@@ -3517,6 +3689,7 @@ Prefab:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1570573681725196, guid: 0574f7d8188ac464b88d67e5ee733df5, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
@@ -3525,6 +3698,8 @@ Prefab:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0574f7d8188ac464b88d67e5ee733df5, type: 2}
   m_IsPrefabParent: 0
@@ -3586,6 +3761,7 @@ Prefab:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1570573681725196, guid: 0574f7d8188ac464b88d67e5ee733df5, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
@@ -3594,6 +3770,8 @@ Prefab:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0574f7d8188ac464b88d67e5ee733df5, type: 2}
   m_IsPrefabParent: 0
@@ -3645,10 +3823,13 @@ Prefab:
       propertyPath: m_Name
       value: Wall (125)
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1136881740606342, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
   m_IsPrefabParent: 0
@@ -3700,10 +3881,13 @@ Prefab:
       propertyPath: m_Name
       value: Wall (53)
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1136881740606342, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
   m_IsPrefabParent: 0
@@ -3755,10 +3939,13 @@ Prefab:
       propertyPath: m_Name
       value: Wall (128)
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1136881740606342, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
   m_IsPrefabParent: 0
@@ -3820,6 +4007,7 @@ Prefab:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1796163866934964, guid: 0574f7d8188ac464b88d67e5ee733df5, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
@@ -3828,6 +4016,8 @@ Prefab:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0574f7d8188ac464b88d67e5ee733df5, type: 2}
   m_IsPrefabParent: 0
@@ -3879,10 +4069,13 @@ Prefab:
       propertyPath: m_Name
       value: Wall (89)
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1136881740606342, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
   m_IsPrefabParent: 0
@@ -3944,6 +4137,7 @@ Prefab:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1796163866934964, guid: 0574f7d8188ac464b88d67e5ee733df5, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
@@ -3952,6 +4146,8 @@ Prefab:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0574f7d8188ac464b88d67e5ee733df5, type: 2}
   m_IsPrefabParent: 0
@@ -4015,10 +4211,13 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1136881740606342, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
   m_IsPrefabParent: 0
@@ -4070,10 +4269,13 @@ Prefab:
       propertyPath: m_Name
       value: Wall (22)
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1136881740606342, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
   m_IsPrefabParent: 0
@@ -4137,10 +4339,13 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1136881740606342, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
   m_IsPrefabParent: 0
@@ -4204,10 +4409,13 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1136881740606342, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
   m_IsPrefabParent: 0
@@ -4229,7 +4437,11 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
+<<<<<<< Updated upstream
   m_StaticEditorFlags: 4294967295
+=======
+  m_StaticEditorFlags: 0
+>>>>>>> Stashed changes
   m_IsActive: 1
 --- !u!4 &345152765
 Transform:
@@ -4250,7 +4462,11 @@ Transform:
   - {fileID: 1021311012}
   - {fileID: 1064148932}
   m_Father: {fileID: 0}
+<<<<<<< Updated upstream
   m_RootOrder: 3
+=======
+  m_RootOrder: 5
+>>>>>>> Stashed changes
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &350247950
 Prefab:
@@ -4295,10 +4511,13 @@ Prefab:
       propertyPath: m_Name
       value: Wall (129)
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1136881740606342, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
   m_IsPrefabParent: 0
@@ -4350,10 +4569,13 @@ Prefab:
       propertyPath: m_Name
       value: Wall (48)
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1136881740606342, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
   m_IsPrefabParent: 0
@@ -4415,6 +4637,7 @@ Prefab:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1796163866934964, guid: 0574f7d8188ac464b88d67e5ee733df5, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
@@ -4423,6 +4646,8 @@ Prefab:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0574f7d8188ac464b88d67e5ee733df5, type: 2}
   m_IsPrefabParent: 0
@@ -4474,10 +4699,13 @@ Prefab:
       propertyPath: m_Name
       value: Wall (122)
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1136881740606342, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
   m_IsPrefabParent: 0
@@ -4529,10 +4757,13 @@ Prefab:
       propertyPath: m_Name
       value: Wall (15)
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1136881740606342, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
   m_IsPrefabParent: 0
@@ -4584,10 +4815,13 @@ Prefab:
       propertyPath: m_Name
       value: Wall (23)
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1136881740606342, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
   m_IsPrefabParent: 0
@@ -4639,10 +4873,13 @@ Prefab:
       propertyPath: m_Name
       value: Sandbag (Bottom) (6)
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1170542294313720, guid: ac5d7c9949f7ec34ca17c654c0acecca, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ac5d7c9949f7ec34ca17c654c0acecca, type: 2}
   m_IsPrefabParent: 0
@@ -4694,10 +4931,13 @@ Prefab:
       propertyPath: m_Name
       value: Wall (8)
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1136881740606342, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
   m_IsPrefabParent: 0
@@ -4761,10 +5001,13 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1170542294313720, guid: ac5d7c9949f7ec34ca17c654c0acecca, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ac5d7c9949f7ec34ca17c654c0acecca, type: 2}
   m_IsPrefabParent: 0
@@ -4826,6 +5069,7 @@ Prefab:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1570573681725196, guid: 0574f7d8188ac464b88d67e5ee733df5, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
@@ -4834,6 +5078,8 @@ Prefab:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0574f7d8188ac464b88d67e5ee733df5, type: 2}
   m_IsPrefabParent: 0
@@ -4897,10 +5143,13 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1170542294313720, guid: ac5d7c9949f7ec34ca17c654c0acecca, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ac5d7c9949f7ec34ca17c654c0acecca, type: 2}
   m_IsPrefabParent: 0
@@ -4952,10 +5201,13 @@ Prefab:
       propertyPath: m_Name
       value: Wall (153)
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1136881740606342, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
   m_IsPrefabParent: 0
@@ -5017,6 +5269,7 @@ Prefab:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1796163866934964, guid: 0574f7d8188ac464b88d67e5ee733df5, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
@@ -5025,6 +5278,8 @@ Prefab:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0574f7d8188ac464b88d67e5ee733df5, type: 2}
   m_IsPrefabParent: 0
@@ -5076,10 +5331,13 @@ Prefab:
       propertyPath: m_Name
       value: Wall (47)
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1136881740606342, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
   m_IsPrefabParent: 0
@@ -5177,10 +5435,13 @@ Prefab:
       propertyPath: m_Name
       value: Wall (147)
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1136881740606342, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
   m_IsPrefabParent: 0
@@ -5242,6 +5503,7 @@ Prefab:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1796163866934964, guid: 0574f7d8188ac464b88d67e5ee733df5, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
@@ -5250,6 +5512,8 @@ Prefab:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0574f7d8188ac464b88d67e5ee733df5, type: 2}
   m_IsPrefabParent: 0
@@ -5258,11 +5522,16 @@ Transform:
   m_PrefabParentObject: {fileID: 4904547200734516, guid: 0574f7d8188ac464b88d67e5ee733df5,
     type: 2}
   m_PrefabInternal: {fileID: 432070615}
+<<<<<<< Updated upstream
 --- !u!1001 &434295629
+=======
+--- !u!1001 &439672927
+>>>>>>> Stashed changes
 Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+<<<<<<< Updated upstream
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 114532827109709476, guid: 5e5def0db565a494f9fe895f2f6bfdce,
@@ -5440,6 +5709,45 @@ Prefab:
     - target: {fileID: 1136881740606342, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
+=======
+    m_TransformParent: {fileID: 1911601706}
+    m_Modifications:
+    - target: {fileID: 4561862935511068, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -97.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4561862935511068, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4561862935511068, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -40.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4561862935511068, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4561862935511068, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4561862935511068, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4561862935511068, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4561862935511068, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
+      propertyPath: m_RootOrder
+      value: 44
+      objectReference: {fileID: 0}
+    - target: {fileID: 1136881740606342, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
+      propertyPath: m_Name
+      value: Wall (52)
+>>>>>>> Stashed changes
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
@@ -5502,6 +5810,7 @@ Prefab:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1570573681725196, guid: 0574f7d8188ac464b88d67e5ee733df5, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
@@ -5510,6 +5819,8 @@ Prefab:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0574f7d8188ac464b88d67e5ee733df5, type: 2}
   m_IsPrefabParent: 0
@@ -5573,10 +5884,13 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1170542294313720, guid: ac5d7c9949f7ec34ca17c654c0acecca, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ac5d7c9949f7ec34ca17c654c0acecca, type: 2}
   m_IsPrefabParent: 0
@@ -5640,10 +5954,13 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1136881740606342, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
   m_IsPrefabParent: 0
@@ -5705,6 +6022,7 @@ Prefab:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1796163866934964, guid: 0574f7d8188ac464b88d67e5ee733df5, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
@@ -5713,6 +6031,8 @@ Prefab:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0574f7d8188ac464b88d67e5ee733df5, type: 2}
   m_IsPrefabParent: 0
@@ -5764,10 +6084,13 @@ Prefab:
       propertyPath: m_Name
       value: Wall (107)
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1136881740606342, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
   m_IsPrefabParent: 0
@@ -5831,10 +6154,13 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1136881740606342, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
   m_IsPrefabParent: 0
@@ -5896,6 +6222,7 @@ Prefab:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1570573681725196, guid: 0574f7d8188ac464b88d67e5ee733df5, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
@@ -5904,6 +6231,8 @@ Prefab:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0574f7d8188ac464b88d67e5ee733df5, type: 2}
   m_IsPrefabParent: 0
@@ -5967,10 +6296,13 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1136881740606342, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
   m_IsPrefabParent: 0
@@ -6032,6 +6364,7 @@ Prefab:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1796163866934964, guid: 0574f7d8188ac464b88d67e5ee733df5, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
@@ -6040,6 +6373,8 @@ Prefab:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0574f7d8188ac464b88d67e5ee733df5, type: 2}
   m_IsPrefabParent: 0
@@ -6091,10 +6426,13 @@ Prefab:
       propertyPath: m_Name
       value: Wall (9)
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1136881740606342, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
   m_IsPrefabParent: 0
@@ -6156,6 +6494,7 @@ Prefab:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1570573681725196, guid: 0574f7d8188ac464b88d67e5ee733df5, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
@@ -6164,6 +6503,8 @@ Prefab:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0574f7d8188ac464b88d67e5ee733df5, type: 2}
   m_IsPrefabParent: 0
@@ -6227,10 +6568,13 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1136881740606342, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
   m_IsPrefabParent: 0
@@ -6282,10 +6626,13 @@ Prefab:
       propertyPath: m_Name
       value: Wall (114)
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1136881740606342, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
   m_IsPrefabParent: 0
@@ -6294,80 +6641,6 @@ Transform:
   m_PrefabParentObject: {fileID: 4561862935511068, guid: e9700d13917c27340946fe5c0faa8f3c,
     type: 2}
   m_PrefabInternal: {fileID: 483767289}
---- !u!1 &493205507
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 493205508}
-  - component: {fileID: 493205510}
-  - component: {fileID: 493205509}
-  m_Layer: 5
-  m_Name: Text
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &493205508
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 493205507}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -320.3, y: 275.8, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1802645701}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 44.7, y: -35.200012}
-  m_SizeDelta: {x: 600, y: 200}
-  m_Pivot: {x: 0, y: 1}
---- !u!114 &493205509
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 493205507}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0.13930018, g: 0.49264705, b: 0, a: 1}
-  m_RaycastTarget: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
-  m_FontData:
-    m_Font: {fileID: 12800000, guid: e3f9b42514d45b84f9a39574524a7340, type: 3}
-    m_FontSize: 85
-    m_FontStyle: 0
-    m_BestFit: 0
-    m_MinSize: 10
-    m_MaxSize: 85
-    m_Alignment: 0
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: WEE TANKS!
---- !u!222 &493205510
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 493205507}
 --- !u!1001 &500017370
 Prefab:
   m_ObjectHideFlags: 0
@@ -6411,10 +6684,13 @@ Prefab:
       propertyPath: m_Name
       value: Wall (127)
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1136881740606342, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
   m_IsPrefabParent: 0
@@ -6478,10 +6754,13 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1136881740606342, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
   m_IsPrefabParent: 0
@@ -6490,6 +6769,7 @@ Transform:
   m_PrefabParentObject: {fileID: 4561862935511068, guid: e9700d13917c27340946fe5c0faa8f3c,
     type: 2}
   m_PrefabInternal: {fileID: 502904354}
+<<<<<<< Updated upstream
 --- !u!1 &503364341
 GameObject:
   m_ObjectHideFlags: 0
@@ -6581,6 +6861,8 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 503364341}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+=======
+>>>>>>> Stashed changes
 --- !u!1001 &504168352
 Prefab:
   m_ObjectHideFlags: 0
@@ -6634,6 +6916,7 @@ Prefab:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1796163866934964, guid: 0574f7d8188ac464b88d67e5ee733df5, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
@@ -6642,6 +6925,8 @@ Prefab:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0574f7d8188ac464b88d67e5ee733df5, type: 2}
   m_IsPrefabParent: 0
@@ -6693,10 +6978,13 @@ Prefab:
       propertyPath: m_Name
       value: Wall (94)
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1136881740606342, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
   m_IsPrefabParent: 0
@@ -6748,10 +7036,13 @@ Prefab:
       propertyPath: m_Name
       value: Wall (18)
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1136881740606342, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
   m_IsPrefabParent: 0
@@ -6803,10 +7094,13 @@ Prefab:
       propertyPath: m_Name
       value: Sandbag (Bottom) (12)
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1170542294313720, guid: ac5d7c9949f7ec34ca17c654c0acecca, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ac5d7c9949f7ec34ca17c654c0acecca, type: 2}
   m_IsPrefabParent: 0
@@ -6815,6 +7109,7 @@ Transform:
   m_PrefabParentObject: {fileID: 4775749020659534, guid: ac5d7c9949f7ec34ca17c654c0acecca,
     type: 2}
   m_PrefabInternal: {fileID: 508635999}
+<<<<<<< Updated upstream
 --- !u!1001 &515794920
 Prefab:
   m_ObjectHideFlags: 0
@@ -6951,6 +7246,8 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5e5def0db565a494f9fe895f2f6bfdce, type: 2}
   m_IsPrefabParent: 0
+=======
+>>>>>>> Stashed changes
 --- !u!1001 &521155759
 Prefab:
   m_ObjectHideFlags: 0
@@ -6994,10 +7291,13 @@ Prefab:
       propertyPath: m_Name
       value: Wall (96)
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1136881740606342, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
   m_IsPrefabParent: 0
@@ -7061,10 +7361,13 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1170542294313720, guid: ac5d7c9949f7ec34ca17c654c0acecca, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ac5d7c9949f7ec34ca17c654c0acecca, type: 2}
   m_IsPrefabParent: 0
@@ -7126,6 +7429,7 @@ Prefab:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1570573681725196, guid: 0574f7d8188ac464b88d67e5ee733df5, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
@@ -7134,6 +7438,8 @@ Prefab:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0574f7d8188ac464b88d67e5ee733df5, type: 2}
   m_IsPrefabParent: 0
@@ -7185,10 +7491,13 @@ Prefab:
       propertyPath: m_Name
       value: Wall (148)
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1136881740606342, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
   m_IsPrefabParent: 0
@@ -7202,7 +7511,11 @@ Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+<<<<<<< Updated upstream
     m_TransformParent: {fileID: 1021311012}
+=======
+    m_TransformParent: {fileID: 0}
+>>>>>>> Stashed changes
     m_Modifications:
     - target: {fileID: 4775749020659534, guid: ac5d7c9949f7ec34ca17c654c0acecca, type: 2}
       propertyPath: m_LocalPosition.x
@@ -7218,6 +7531,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4775749020659534, guid: ac5d7c9949f7ec34ca17c654c0acecca, type: 2}
       propertyPath: m_LocalRotation.x
+<<<<<<< Updated upstream
       value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 4775749020659534, guid: ac5d7c9949f7ec34ca17c654c0acecca, type: 2}
@@ -7227,6 +7541,17 @@ Prefab:
     - target: {fileID: 4775749020659534, guid: ac5d7c9949f7ec34ca17c654c0acecca, type: 2}
       propertyPath: m_LocalRotation.z
       value: -0
+=======
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4775749020659534, guid: ac5d7c9949f7ec34ca17c654c0acecca, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4775749020659534, guid: ac5d7c9949f7ec34ca17c654c0acecca, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+>>>>>>> Stashed changes
       objectReference: {fileID: 0}
     - target: {fileID: 4775749020659534, guid: ac5d7c9949f7ec34ca17c654c0acecca, type: 2}
       propertyPath: m_LocalRotation.w
@@ -7234,6 +7559,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4775749020659534, guid: ac5d7c9949f7ec34ca17c654c0acecca, type: 2}
       propertyPath: m_RootOrder
+<<<<<<< Updated upstream
       value: 57
       objectReference: {fileID: 0}
     - target: {fileID: 1170542294313720, guid: ac5d7c9949f7ec34ca17c654c0acecca, type: 2}
@@ -7519,6 +7845,12 @@ Prefab:
       objectReference: {fileID: 439828175}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5e5def0db565a494f9fe895f2f6bfdce, type: 2}
+=======
+      value: 2
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: ac5d7c9949f7ec34ca17c654c0acecca, type: 2}
+>>>>>>> Stashed changes
   m_IsPrefabParent: 0
 --- !u!1001 &607511921
 Prefab:
@@ -7563,10 +7895,13 @@ Prefab:
       propertyPath: m_Name
       value: Wall (116)
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1136881740606342, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
   m_IsPrefabParent: 0
@@ -7618,10 +7953,13 @@ Prefab:
       propertyPath: m_Name
       value: Sandbag (Bottom) (22)
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1170542294313720, guid: ac5d7c9949f7ec34ca17c654c0acecca, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ac5d7c9949f7ec34ca17c654c0acecca, type: 2}
   m_IsPrefabParent: 0
@@ -7683,6 +8021,7 @@ Prefab:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1570573681725196, guid: 0574f7d8188ac464b88d67e5ee733df5, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
@@ -7691,6 +8030,8 @@ Prefab:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0574f7d8188ac464b88d67e5ee733df5, type: 2}
   m_IsPrefabParent: 0
@@ -7754,10 +8095,13 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1136881740606342, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
   m_IsPrefabParent: 0
@@ -7809,10 +8153,13 @@ Prefab:
       propertyPath: m_Name
       value: Wall (113)
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1136881740606342, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
   m_IsPrefabParent: 0
@@ -7871,6 +8218,7 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1ca0f490ba8489f4e869c4a4ae91fe2b, type: 2}
   m_IsPrefabParent: 0
+<<<<<<< Updated upstream
 --- !u!1001 &675806988
 Prefab:
   m_ObjectHideFlags: 0
@@ -8007,6 +8355,8 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5e5def0db565a494f9fe895f2f6bfdce, type: 2}
   m_IsPrefabParent: 0
+=======
+>>>>>>> Stashed changes
 --- !u!1001 &692185932
 Prefab:
   m_ObjectHideFlags: 0
@@ -8062,10 +8412,13 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1170542294313720, guid: ac5d7c9949f7ec34ca17c654c0acecca, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ac5d7c9949f7ec34ca17c654c0acecca, type: 2}
   m_IsPrefabParent: 0
@@ -8127,6 +8480,7 @@ Prefab:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1796163866934964, guid: 0574f7d8188ac464b88d67e5ee733df5, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
@@ -8135,6 +8489,8 @@ Prefab:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0574f7d8188ac464b88d67e5ee733df5, type: 2}
   m_IsPrefabParent: 0
@@ -8198,10 +8554,13 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1170542294313720, guid: ac5d7c9949f7ec34ca17c654c0acecca, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ac5d7c9949f7ec34ca17c654c0acecca, type: 2}
   m_IsPrefabParent: 0
@@ -8263,6 +8622,7 @@ Prefab:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1796163866934964, guid: 0574f7d8188ac464b88d67e5ee733df5, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
@@ -8271,6 +8631,8 @@ Prefab:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0574f7d8188ac464b88d67e5ee733df5, type: 2}
   m_IsPrefabParent: 0
@@ -8332,6 +8694,7 @@ Prefab:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1796163866934964, guid: 0574f7d8188ac464b88d67e5ee733df5, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
@@ -8340,6 +8703,8 @@ Prefab:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0574f7d8188ac464b88d67e5ee733df5, type: 2}
   m_IsPrefabParent: 0
@@ -8391,10 +8756,13 @@ Prefab:
       propertyPath: m_Name
       value: Wall (49)
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1136881740606342, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
   m_IsPrefabParent: 0
@@ -8514,6 +8882,7 @@ Prefab:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1796163866934964, guid: 0574f7d8188ac464b88d67e5ee733df5, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
@@ -8522,6 +8891,8 @@ Prefab:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0574f7d8188ac464b88d67e5ee733df5, type: 2}
   m_IsPrefabParent: 0
@@ -8530,6 +8901,7 @@ Transform:
   m_PrefabParentObject: {fileID: 4904547200734516, guid: 0574f7d8188ac464b88d67e5ee733df5,
     type: 2}
   m_PrefabInternal: {fileID: 717374957}
+<<<<<<< Updated upstream
 --- !u!1001 &719380682
 Prefab:
   m_ObjectHideFlags: 0
@@ -8666,6 +9038,8 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5e5def0db565a494f9fe895f2f6bfdce, type: 2}
   m_IsPrefabParent: 0
+=======
+>>>>>>> Stashed changes
 --- !u!1001 &722594340
 Prefab:
   m_ObjectHideFlags: 0
@@ -8721,10 +9095,13 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1136881740606342, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
   m_IsPrefabParent: 0
@@ -8776,10 +9153,13 @@ Prefab:
       propertyPath: m_Name
       value: Wall (108)
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1136881740606342, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
   m_IsPrefabParent: 0
@@ -8843,10 +9223,13 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1136881740606342, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
   m_IsPrefabParent: 0
@@ -8898,10 +9281,13 @@ Prefab:
       propertyPath: m_Name
       value: Wall (112)
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1136881740606342, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
   m_IsPrefabParent: 0
@@ -8909,6 +9295,7 @@ Prefab:
 Transform:
   m_PrefabParentObject: {fileID: 4561862935511068, guid: e9700d13917c27340946fe5c0faa8f3c,
     type: 2}
+<<<<<<< Updated upstream
   m_PrefabInternal: {fileID: 744393584}
 --- !u!1001 &750956254
 Prefab:
@@ -8966,10 +9353,15 @@ Transform:
     type: 2}
   m_PrefabInternal: {fileID: 750956254}
 --- !u!1001 &757110559
+=======
+  m_PrefabInternal: {fileID: 744393584}
+--- !u!1001 &750956254
+>>>>>>> Stashed changes
 Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+<<<<<<< Updated upstream
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 114532827109709476, guid: 5e5def0db565a494f9fe895f2f6bfdce,
@@ -9092,6 +9484,54 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5e5def0db565a494f9fe895f2f6bfdce, type: 2}
   m_IsPrefabParent: 0
+=======
+    m_TransformParent: {fileID: 1021311012}
+    m_Modifications:
+    - target: {fileID: 4775749020659534, guid: ac5d7c9949f7ec34ca17c654c0acecca, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -12.67
+      objectReference: {fileID: 0}
+    - target: {fileID: 4775749020659534, guid: ac5d7c9949f7ec34ca17c654c0acecca, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4775749020659534, guid: ac5d7c9949f7ec34ca17c654c0acecca, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 24.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4775749020659534, guid: ac5d7c9949f7ec34ca17c654c0acecca, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4775749020659534, guid: ac5d7c9949f7ec34ca17c654c0acecca, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4775749020659534, guid: ac5d7c9949f7ec34ca17c654c0acecca, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4775749020659534, guid: ac5d7c9949f7ec34ca17c654c0acecca, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4775749020659534, guid: ac5d7c9949f7ec34ca17c654c0acecca, type: 2}
+      propertyPath: m_RootOrder
+      value: 51
+      objectReference: {fileID: 0}
+    - target: {fileID: 1170542294313720, guid: ac5d7c9949f7ec34ca17c654c0acecca, type: 2}
+      propertyPath: m_Name
+      value: Sandbag (Bottom) (53)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: ac5d7c9949f7ec34ca17c654c0acecca, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &750956255 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4775749020659534, guid: ac5d7c9949f7ec34ca17c654c0acecca,
+    type: 2}
+  m_PrefabInternal: {fileID: 750956254}
+>>>>>>> Stashed changes
 --- !u!1001 &758656765
 Prefab:
   m_ObjectHideFlags: 0
@@ -9147,10 +9587,13 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1136881740606342, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
   m_IsPrefabParent: 0
@@ -9202,10 +9645,13 @@ Prefab:
       propertyPath: m_Name
       value: Wall (2)
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1136881740606342, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
   m_IsPrefabParent: 0
@@ -9269,10 +9715,13 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1136881740606342, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
   m_IsPrefabParent: 0
@@ -9334,6 +9783,7 @@ Prefab:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1796163866934964, guid: 0574f7d8188ac464b88d67e5ee733df5, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
@@ -9342,6 +9792,8 @@ Prefab:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0574f7d8188ac464b88d67e5ee733df5, type: 2}
   m_IsPrefabParent: 0
@@ -9403,6 +9855,7 @@ Prefab:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1570573681725196, guid: 0574f7d8188ac464b88d67e5ee733df5, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
@@ -9411,6 +9864,8 @@ Prefab:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0574f7d8188ac464b88d67e5ee733df5, type: 2}
   m_IsPrefabParent: 0
@@ -9472,6 +9927,7 @@ Prefab:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1796163866934964, guid: 0574f7d8188ac464b88d67e5ee733df5, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
@@ -9480,6 +9936,8 @@ Prefab:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0574f7d8188ac464b88d67e5ee733df5, type: 2}
   m_IsPrefabParent: 0
@@ -9541,6 +9999,7 @@ Prefab:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1570573681725196, guid: 0574f7d8188ac464b88d67e5ee733df5, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
@@ -9549,6 +10008,8 @@ Prefab:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0574f7d8188ac464b88d67e5ee733df5, type: 2}
   m_IsPrefabParent: 0
@@ -9610,6 +10071,7 @@ Prefab:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1570573681725196, guid: 0574f7d8188ac464b88d67e5ee733df5, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
@@ -9618,6 +10080,8 @@ Prefab:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0574f7d8188ac464b88d67e5ee733df5, type: 2}
   m_IsPrefabParent: 0
@@ -9669,10 +10133,13 @@ Prefab:
       propertyPath: m_Name
       value: Wall (167)
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1136881740606342, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
   m_IsPrefabParent: 0
@@ -9736,10 +10203,13 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1170542294313720, guid: ac5d7c9949f7ec34ca17c654c0acecca, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ac5d7c9949f7ec34ca17c654c0acecca, type: 2}
   m_IsPrefabParent: 0
@@ -9748,68 +10218,6 @@ Transform:
   m_PrefabParentObject: {fileID: 4775749020659534, guid: ac5d7c9949f7ec34ca17c654c0acecca,
     type: 2}
   m_PrefabInternal: {fileID: 790287547}
---- !u!1 &794781371
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 794781374}
-  - component: {fileID: 794781373}
-  - component: {fileID: 794781372}
-  m_Layer: 0
-  m_Name: EventSystem
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &794781372
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 794781371}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1077351063, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_HorizontalAxis: Horizontal
-  m_VerticalAxis: Vertical
-  m_SubmitButton: Submit
-  m_CancelButton: Cancel
-  m_InputActionsPerSecond: 10
-  m_RepeatDelay: 0.5
-  m_ForceModuleActive: 0
---- !u!114 &794781373
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 794781371}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: -619905303, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_FirstSelected: {fileID: 0}
-  m_sendNavigationEvents: 1
-  m_DragThreshold: 5
---- !u!4 &794781374
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 794781371}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 16
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &800453299
 Prefab:
   m_ObjectHideFlags: 0
@@ -9865,10 +10273,13 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1170542294313720, guid: ac5d7c9949f7ec34ca17c654c0acecca, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ac5d7c9949f7ec34ca17c654c0acecca, type: 2}
   m_IsPrefabParent: 0
@@ -9920,10 +10331,13 @@ Prefab:
       propertyPath: m_Name
       value: Sandbag (Bottom) (17)
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1170542294313720, guid: ac5d7c9949f7ec34ca17c654c0acecca, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ac5d7c9949f7ec34ca17c654c0acecca, type: 2}
   m_IsPrefabParent: 0
@@ -9985,6 +10399,7 @@ Prefab:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1796163866934964, guid: 0574f7d8188ac464b88d67e5ee733df5, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
@@ -9993,6 +10408,8 @@ Prefab:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0574f7d8188ac464b88d67e5ee733df5, type: 2}
   m_IsPrefabParent: 0
@@ -10056,10 +10473,13 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1170542294313720, guid: ac5d7c9949f7ec34ca17c654c0acecca, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ac5d7c9949f7ec34ca17c654c0acecca, type: 2}
   m_IsPrefabParent: 0
@@ -10105,7 +10525,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4561862935511068, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
       propertyPath: m_RootOrder
+<<<<<<< Updated upstream
       value: 1
+=======
+      value: 3
+>>>>>>> Stashed changes
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
@@ -10163,6 +10587,7 @@ Prefab:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1570573681725196, guid: 0574f7d8188ac464b88d67e5ee733df5, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
@@ -10171,6 +10596,8 @@ Prefab:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0574f7d8188ac464b88d67e5ee733df5, type: 2}
   m_IsPrefabParent: 0
@@ -10222,10 +10649,13 @@ Prefab:
       propertyPath: m_Name
       value: Wall (11)
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1136881740606342, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
   m_IsPrefabParent: 0
@@ -10289,10 +10719,13 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1170542294313720, guid: ac5d7c9949f7ec34ca17c654c0acecca, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ac5d7c9949f7ec34ca17c654c0acecca, type: 2}
   m_IsPrefabParent: 0
@@ -10356,10 +10789,13 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1136881740606342, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
   m_IsPrefabParent: 0
@@ -10368,6 +10804,7 @@ Transform:
   m_PrefabParentObject: {fileID: 4561862935511068, guid: e9700d13917c27340946fe5c0faa8f3c,
     type: 2}
   m_PrefabInternal: {fileID: 869612791}
+<<<<<<< Updated upstream
 --- !u!1001 &875140018
 Prefab:
   m_ObjectHideFlags: 0
@@ -10504,6 +10941,8 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5e5def0db565a494f9fe895f2f6bfdce, type: 2}
   m_IsPrefabParent: 0
+=======
+>>>>>>> Stashed changes
 --- !u!1001 &898762032
 Prefab:
   m_ObjectHideFlags: 0
@@ -10547,10 +10986,13 @@ Prefab:
       propertyPath: m_Name
       value: Wall (86)
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1136881740606342, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
   m_IsPrefabParent: 0
@@ -10612,6 +11054,7 @@ Prefab:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1570573681725196, guid: 0574f7d8188ac464b88d67e5ee733df5, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
@@ -10620,6 +11063,8 @@ Prefab:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0574f7d8188ac464b88d67e5ee733df5, type: 2}
   m_IsPrefabParent: 0
@@ -10683,10 +11128,13 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1136881740606342, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
   m_IsPrefabParent: 0
@@ -10738,10 +11186,13 @@ Prefab:
       propertyPath: m_Name
       value: Wall (20)
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1136881740606342, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
   m_IsPrefabParent: 0
@@ -10793,10 +11244,13 @@ Prefab:
       propertyPath: m_Name
       value: Wall (12)
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1136881740606342, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
   m_IsPrefabParent: 0
@@ -10848,10 +11302,13 @@ Prefab:
       propertyPath: m_Name
       value: Wall (26)
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1136881740606342, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
   m_IsPrefabParent: 0
@@ -10903,10 +11360,13 @@ Prefab:
       propertyPath: m_Name
       value: Wall (164)
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1136881740606342, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
   m_IsPrefabParent: 0
@@ -10958,10 +11418,13 @@ Prefab:
       propertyPath: m_Name
       value: Wall (111)
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1136881740606342, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
   m_IsPrefabParent: 0
@@ -11025,10 +11488,13 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1136881740606342, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
   m_IsPrefabParent: 0
@@ -11080,10 +11546,13 @@ Prefab:
       propertyPath: m_Name
       value: Sandbag (Bottom) (18)
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1170542294313720, guid: ac5d7c9949f7ec34ca17c654c0acecca, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ac5d7c9949f7ec34ca17c654c0acecca, type: 2}
   m_IsPrefabParent: 0
@@ -11147,10 +11616,13 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1136881740606342, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
   m_IsPrefabParent: 0
@@ -11212,6 +11684,7 @@ Prefab:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1570573681725196, guid: 0574f7d8188ac464b88d67e5ee733df5, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
@@ -11220,6 +11693,8 @@ Prefab:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0574f7d8188ac464b88d67e5ee733df5, type: 2}
   m_IsPrefabParent: 0
@@ -11271,10 +11746,13 @@ Prefab:
       propertyPath: m_Name
       value: Sandbag (Bottom) (15)
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1170542294313720, guid: ac5d7c9949f7ec34ca17c654c0acecca, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ac5d7c9949f7ec34ca17c654c0acecca, type: 2}
   m_IsPrefabParent: 0
@@ -11326,10 +11804,13 @@ Prefab:
       propertyPath: m_Name
       value: Wall (29)
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1136881740606342, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
   m_IsPrefabParent: 0
@@ -11381,10 +11862,13 @@ Prefab:
       propertyPath: m_Name
       value: Wall (132)
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1136881740606342, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
   m_IsPrefabParent: 0
@@ -11406,7 +11890,11 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
+<<<<<<< Updated upstream
   m_StaticEditorFlags: 4294967295
+=======
+  m_StaticEditorFlags: 0
+>>>>>>> Stashed changes
   m_IsActive: 1
 --- !u!4 &1021311012
 Transform:
@@ -11474,8 +11962,11 @@ Transform:
   - {fileID: 1563716078}
   - {fileID: 1812417630}
   - {fileID: 1268591712}
+<<<<<<< Updated upstream
   - {fileID: 1762725808}
   - {fileID: 568004296}
+=======
+>>>>>>> Stashed changes
   m_Father: {fileID: 345152765}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -11534,10 +12025,13 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1136881740606342, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
   m_IsPrefabParent: 0
@@ -11601,10 +12095,13 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1170542294313720, guid: ac5d7c9949f7ec34ca17c654c0acecca, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ac5d7c9949f7ec34ca17c654c0acecca, type: 2}
   m_IsPrefabParent: 0
@@ -11656,10 +12153,13 @@ Prefab:
       propertyPath: m_Name
       value: Wall (59)
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1136881740606342, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
   m_IsPrefabParent: 0
@@ -11711,10 +12211,13 @@ Prefab:
       propertyPath: m_Name
       value: Sandbag (Bottom) (13)
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1170542294313720, guid: ac5d7c9949f7ec34ca17c654c0acecca, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ac5d7c9949f7ec34ca17c654c0acecca, type: 2}
   m_IsPrefabParent: 0
@@ -11766,10 +12269,13 @@ Prefab:
       propertyPath: m_Name
       value: Sandbag (Bottom) (48)
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1170542294313720, guid: ac5d7c9949f7ec34ca17c654c0acecca, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ac5d7c9949f7ec34ca17c654c0acecca, type: 2}
   m_IsPrefabParent: 0
@@ -11831,6 +12337,7 @@ Prefab:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1570573681725196, guid: 0574f7d8188ac464b88d67e5ee733df5, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
@@ -11839,6 +12346,8 @@ Prefab:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0574f7d8188ac464b88d67e5ee733df5, type: 2}
   m_IsPrefabParent: 0
@@ -11860,7 +12369,11 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
+<<<<<<< Updated upstream
   m_StaticEditorFlags: 4294967295
+=======
+  m_StaticEditorFlags: 0
+>>>>>>> Stashed changes
   m_IsActive: 1
 --- !u!4 &1064148932
 Transform:
@@ -11996,6 +12509,7 @@ Prefab:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1570573681725196, guid: 0574f7d8188ac464b88d67e5ee733df5, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
@@ -12004,6 +12518,8 @@ Prefab:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0574f7d8188ac464b88d67e5ee733df5, type: 2}
   m_IsPrefabParent: 0
@@ -12055,10 +12571,13 @@ Prefab:
       propertyPath: m_Name
       value: Wall (85)
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1136881740606342, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
   m_IsPrefabParent: 0
@@ -12110,10 +12629,13 @@ Prefab:
       propertyPath: m_Name
       value: Sandbag (Bottom) (8)
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1170542294313720, guid: ac5d7c9949f7ec34ca17c654c0acecca, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ac5d7c9949f7ec34ca17c654c0acecca, type: 2}
   m_IsPrefabParent: 0
@@ -12165,10 +12687,13 @@ Prefab:
       propertyPath: m_Name
       value: Wall (7)
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1136881740606342, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
   m_IsPrefabParent: 0
@@ -12230,6 +12755,7 @@ Prefab:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1796163866934964, guid: 0574f7d8188ac464b88d67e5ee733df5, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
@@ -12238,6 +12764,8 @@ Prefab:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0574f7d8188ac464b88d67e5ee733df5, type: 2}
   m_IsPrefabParent: 0
@@ -12301,10 +12829,13 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1136881740606342, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
   m_IsPrefabParent: 0
@@ -12368,10 +12899,13 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1136881740606342, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
   m_IsPrefabParent: 0
@@ -12435,10 +12969,13 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1136881740606342, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
   m_IsPrefabParent: 0
@@ -12502,10 +13039,13 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1136881740606342, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
   m_IsPrefabParent: 0
@@ -12569,10 +13109,13 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1136881740606342, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
   m_IsPrefabParent: 0
@@ -12636,10 +13179,13 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1136881740606342, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
   m_IsPrefabParent: 0
@@ -12691,10 +13237,13 @@ Prefab:
       propertyPath: m_Name
       value: Wall (106)
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1136881740606342, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
   m_IsPrefabParent: 0
@@ -12746,10 +13295,13 @@ Prefab:
       propertyPath: m_Name
       value: Wall (84)
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1136881740606342, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
   m_IsPrefabParent: 0
@@ -12811,6 +13363,7 @@ Prefab:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1570573681725196, guid: 0574f7d8188ac464b88d67e5ee733df5, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
@@ -12819,6 +13372,8 @@ Prefab:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0574f7d8188ac464b88d67e5ee733df5, type: 2}
   m_IsPrefabParent: 0
@@ -12827,6 +13382,7 @@ Transform:
   m_PrefabParentObject: {fileID: 4904547200734516, guid: 0574f7d8188ac464b88d67e5ee733df5,
     type: 2}
   m_PrefabInternal: {fileID: 1190311535}
+<<<<<<< Updated upstream
 --- !u!1 &1193152111
 GameObject:
   m_ObjectHideFlags: 0
@@ -12872,10 +13428,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 0}
+  healthScript: {fileID: 0}
   respawns: 0
   respawnPoints: []
   tanks: []
   uiManager: {fileID: 1193152112}
+  autoPlay: 1
 --- !u!4 &1193152114
 Transform:
   m_ObjectHideFlags: 0
@@ -12890,6 +13448,8 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+>>>>>>> Stashed changes
 --- !u!1001 &1198495286
 Prefab:
   m_ObjectHideFlags: 0
@@ -12933,10 +13493,13 @@ Prefab:
       propertyPath: m_Name
       value: Wall (92)
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1136881740606342, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
   m_IsPrefabParent: 0
@@ -13000,10 +13563,13 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1136881740606342, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
   m_IsPrefabParent: 0
@@ -13067,10 +13633,13 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1136881740606342, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
   m_IsPrefabParent: 0
@@ -13134,10 +13703,13 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1136881740606342, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
   m_IsPrefabParent: 0
@@ -13194,10 +13766,13 @@ Prefab:
       propertyPath: m_Name
       value: Sandbag (Bottom) (21)
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1170542294313720, guid: ac5d7c9949f7ec34ca17c654c0acecca, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ac5d7c9949f7ec34ca17c654c0acecca, type: 2}
   m_IsPrefabParent: 0
@@ -13259,6 +13834,7 @@ Prefab:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1570573681725196, guid: 0574f7d8188ac464b88d67e5ee733df5, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
@@ -13267,6 +13843,8 @@ Prefab:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0574f7d8188ac464b88d67e5ee733df5, type: 2}
   m_IsPrefabParent: 0
@@ -13328,6 +13906,7 @@ Prefab:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1570573681725196, guid: 0574f7d8188ac464b88d67e5ee733df5, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
@@ -13336,6 +13915,8 @@ Prefab:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0574f7d8188ac464b88d67e5ee733df5, type: 2}
   m_IsPrefabParent: 0
@@ -13387,10 +13968,13 @@ Prefab:
       propertyPath: m_Name
       value: Sandbag (Bottom) (10)
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1170542294313720, guid: ac5d7c9949f7ec34ca17c654c0acecca, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ac5d7c9949f7ec34ca17c654c0acecca, type: 2}
   m_IsPrefabParent: 0
@@ -13442,10 +14026,13 @@ Prefab:
       propertyPath: m_Name
       value: Wall (144)
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1136881740606342, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
   m_IsPrefabParent: 0
@@ -13507,6 +14094,7 @@ Prefab:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1570573681725196, guid: 0574f7d8188ac464b88d67e5ee733df5, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
@@ -13515,6 +14103,8 @@ Prefab:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0574f7d8188ac464b88d67e5ee733df5, type: 2}
   m_IsPrefabParent: 0
@@ -13566,10 +14156,13 @@ Prefab:
       propertyPath: m_Name
       value: Sandbag (Bottom) (57)
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1170542294313720, guid: ac5d7c9949f7ec34ca17c654c0acecca, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ac5d7c9949f7ec34ca17c654c0acecca, type: 2}
   m_IsPrefabParent: 0
@@ -13578,6 +14171,7 @@ Transform:
   m_PrefabParentObject: {fileID: 4775749020659534, guid: ac5d7c9949f7ec34ca17c654c0acecca,
     type: 2}
   m_PrefabInternal: {fileID: 1268591711}
+<<<<<<< Updated upstream
 --- !u!1 &1269161915
 GameObject:
   m_ObjectHideFlags: 0
@@ -13594,6 +14188,8 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
+=======
+>>>>>>> Stashed changes
 --- !u!1001 &1271822706
 Prefab:
   m_ObjectHideFlags: 0
@@ -13637,10 +14233,13 @@ Prefab:
       propertyPath: m_Name
       value: Wall (151)
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1136881740606342, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
   m_IsPrefabParent: 0
@@ -13704,10 +14303,13 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1136881740606342, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
   m_IsPrefabParent: 0
@@ -13771,10 +14373,13 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1170542294313720, guid: ac5d7c9949f7ec34ca17c654c0acecca, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ac5d7c9949f7ec34ca17c654c0acecca, type: 2}
   m_IsPrefabParent: 0
@@ -13826,10 +14431,13 @@ Prefab:
       propertyPath: m_Name
       value: Wall (56)
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1136881740606342, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
   m_IsPrefabParent: 0
@@ -13881,10 +14489,13 @@ Prefab:
       propertyPath: m_Name
       value: Sandbag (Bottom) (16)
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1170542294313720, guid: ac5d7c9949f7ec34ca17c654c0acecca, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ac5d7c9949f7ec34ca17c654c0acecca, type: 2}
   m_IsPrefabParent: 0
@@ -13936,10 +14547,13 @@ Prefab:
       propertyPath: m_Name
       value: Wall (115)
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1136881740606342, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
   m_IsPrefabParent: 0
@@ -13948,6 +14562,7 @@ Transform:
   m_PrefabParentObject: {fileID: 4561862935511068, guid: e9700d13917c27340946fe5c0faa8f3c,
     type: 2}
   m_PrefabInternal: {fileID: 1296787540}
+<<<<<<< Updated upstream
 --- !u!1 &1297804880
 GameObject:
   m_ObjectHideFlags: 0
@@ -14039,6 +14654,8 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1297804880}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+=======
+>>>>>>> Stashed changes
 --- !u!1001 &1298222371
 Prefab:
   m_ObjectHideFlags: 0
@@ -14082,10 +14699,13 @@ Prefab:
       propertyPath: m_Name
       value: Wall (25)
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1136881740606342, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
   m_IsPrefabParent: 0
@@ -14137,10 +14757,13 @@ Prefab:
       propertyPath: m_Name
       value: Wall (149)
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1136881740606342, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
   m_IsPrefabParent: 0
@@ -14204,10 +14827,13 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1136881740606342, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
   m_IsPrefabParent: 0
@@ -14339,10 +14965,13 @@ Prefab:
       propertyPath: m_Name
       value: Wall (10)
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1136881740606342, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
   m_IsPrefabParent: 0
@@ -14404,6 +15033,7 @@ Prefab:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1796163866934964, guid: 0574f7d8188ac464b88d67e5ee733df5, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
@@ -14412,6 +15042,8 @@ Prefab:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0574f7d8188ac464b88d67e5ee733df5, type: 2}
   m_IsPrefabParent: 0
@@ -14463,10 +15095,13 @@ Prefab:
       propertyPath: m_Name
       value: Wall (50)
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1136881740606342, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
   m_IsPrefabParent: 0
@@ -14518,10 +15153,13 @@ Prefab:
       propertyPath: m_Name
       value: Wall (28)
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1136881740606342, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
   m_IsPrefabParent: 0
@@ -14583,6 +15221,7 @@ Prefab:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1570573681725196, guid: 0574f7d8188ac464b88d67e5ee733df5, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
@@ -14591,6 +15230,8 @@ Prefab:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0574f7d8188ac464b88d67e5ee733df5, type: 2}
   m_IsPrefabParent: 0
@@ -14642,10 +15283,13 @@ Prefab:
       propertyPath: m_Name
       value: Sandbag (Bottom) (49)
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1170542294313720, guid: ac5d7c9949f7ec34ca17c654c0acecca, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ac5d7c9949f7ec34ca17c654c0acecca, type: 2}
   m_IsPrefabParent: 0
@@ -14709,10 +15353,13 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1136881740606342, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
   m_IsPrefabParent: 0
@@ -14774,6 +15421,7 @@ Prefab:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1570573681725196, guid: 0574f7d8188ac464b88d67e5ee733df5, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
@@ -14782,6 +15430,8 @@ Prefab:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0574f7d8188ac464b88d67e5ee733df5, type: 2}
   m_IsPrefabParent: 0
@@ -14845,10 +15495,13 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1136881740606342, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
   m_IsPrefabParent: 0
@@ -14912,10 +15565,13 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1136881740606342, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
   m_IsPrefabParent: 0
@@ -14967,10 +15623,13 @@ Prefab:
       propertyPath: m_Name
       value: Wall (82)
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1136881740606342, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
   m_IsPrefabParent: 0
@@ -15034,10 +15693,13 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1136881740606342, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
   m_IsPrefabParent: 0
@@ -15089,10 +15751,13 @@ Prefab:
       propertyPath: m_Name
       value: Wall (101)
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1136881740606342, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
   m_IsPrefabParent: 0
@@ -15156,10 +15821,13 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1136881740606342, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
   m_IsPrefabParent: 0
@@ -15168,6 +15836,7 @@ Transform:
   m_PrefabParentObject: {fileID: 4561862935511068, guid: e9700d13917c27340946fe5c0faa8f3c,
     type: 2}
   m_PrefabInternal: {fileID: 1356490040}
+<<<<<<< Updated upstream
 --- !u!1 &1357451329
 GameObject:
   m_ObjectHideFlags: 0
@@ -15259,6 +15928,8 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1357451329}
   m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+=======
+>>>>>>> Stashed changes
 --- !u!1001 &1373580920
 Prefab:
   m_ObjectHideFlags: 0
@@ -15312,6 +15983,7 @@ Prefab:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1570573681725196, guid: 0574f7d8188ac464b88d67e5ee733df5, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
@@ -15320,6 +15992,8 @@ Prefab:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0574f7d8188ac464b88d67e5ee733df5, type: 2}
   m_IsPrefabParent: 0
@@ -15381,6 +16055,7 @@ Prefab:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1796163866934964, guid: 0574f7d8188ac464b88d67e5ee733df5, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
@@ -15389,6 +16064,8 @@ Prefab:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0574f7d8188ac464b88d67e5ee733df5, type: 2}
   m_IsPrefabParent: 0
@@ -15452,10 +16129,13 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1136881740606342, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
   m_IsPrefabParent: 0
@@ -15519,10 +16199,13 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1170542294313720, guid: ac5d7c9949f7ec34ca17c654c0acecca, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ac5d7c9949f7ec34ca17c654c0acecca, type: 2}
   m_IsPrefabParent: 0
@@ -15574,10 +16257,13 @@ Prefab:
       propertyPath: m_Name
       value: Wall (21)
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1136881740606342, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
   m_IsPrefabParent: 0
@@ -15697,6 +16383,7 @@ Prefab:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1796163866934964, guid: 0574f7d8188ac464b88d67e5ee733df5, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
@@ -15705,6 +16392,8 @@ Prefab:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0574f7d8188ac464b88d67e5ee733df5, type: 2}
   m_IsPrefabParent: 0
@@ -15713,6 +16402,51 @@ Transform:
   m_PrefabParentObject: {fileID: 4904547200734516, guid: 0574f7d8188ac464b88d67e5ee733df5,
     type: 2}
   m_PrefabInternal: {fileID: 1417162438}
+<<<<<<< Updated upstream
+=======
+--- !u!1001 &1418917618
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 345152765}
+    m_Modifications:
+    - target: {fileID: 4493116451416494, guid: 73f7c1411f9a18c428447e37c1d501c0, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4493116451416494, guid: 73f7c1411f9a18c428447e37c1d501c0, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4493116451416494, guid: 73f7c1411f9a18c428447e37c1d501c0, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4493116451416494, guid: 73f7c1411f9a18c428447e37c1d501c0, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4493116451416494, guid: 73f7c1411f9a18c428447e37c1d501c0, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4493116451416494, guid: 73f7c1411f9a18c428447e37c1d501c0, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4493116451416494, guid: 73f7c1411f9a18c428447e37c1d501c0, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4493116451416494, guid: 73f7c1411f9a18c428447e37c1d501c0, type: 2}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 73f7c1411f9a18c428447e37c1d501c0, type: 2}
+  m_IsPrefabParent: 0
+>>>>>>> Stashed changes
 --- !u!1001 &1427147522
 Prefab:
   m_ObjectHideFlags: 0
@@ -15766,6 +16500,7 @@ Prefab:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1570573681725196, guid: 0574f7d8188ac464b88d67e5ee733df5, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
@@ -15774,6 +16509,8 @@ Prefab:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0574f7d8188ac464b88d67e5ee733df5, type: 2}
   m_IsPrefabParent: 0
@@ -15825,10 +16562,13 @@ Prefab:
       propertyPath: m_Name
       value: Wall (121)
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1136881740606342, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
   m_IsPrefabParent: 0
@@ -15892,10 +16632,13 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1136881740606342, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
   m_IsPrefabParent: 0
@@ -15947,10 +16690,13 @@ Prefab:
       propertyPath: m_Name
       value: Wall (19)
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1136881740606342, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
   m_IsPrefabParent: 0
@@ -16014,10 +16760,13 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1136881740606342, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
   m_IsPrefabParent: 0
@@ -16069,10 +16818,13 @@ Prefab:
       propertyPath: m_Name
       value: Wall (165)
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1136881740606342, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
   m_IsPrefabParent: 0
@@ -16124,10 +16876,13 @@ Prefab:
       propertyPath: m_Name
       value: Sandbag (Bottom) (9)
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1170542294313720, guid: ac5d7c9949f7ec34ca17c654c0acecca, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ac5d7c9949f7ec34ca17c654c0acecca, type: 2}
   m_IsPrefabParent: 0
@@ -16179,10 +16934,13 @@ Prefab:
       propertyPath: m_Name
       value: Wall (55)
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1136881740606342, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
   m_IsPrefabParent: 0
@@ -16246,10 +17004,13 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1170542294313720, guid: ac5d7c9949f7ec34ca17c654c0acecca, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ac5d7c9949f7ec34ca17c654c0acecca, type: 2}
   m_IsPrefabParent: 0
@@ -16301,10 +17062,13 @@ Prefab:
       propertyPath: m_Name
       value: Wall (93)
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1136881740606342, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
   m_IsPrefabParent: 0
@@ -16356,10 +17120,13 @@ Prefab:
       propertyPath: m_Name
       value: Wall (51)
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1136881740606342, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
   m_IsPrefabParent: 0
@@ -16421,6 +17188,7 @@ Prefab:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1796163866934964, guid: 0574f7d8188ac464b88d67e5ee733df5, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
@@ -16429,6 +17197,8 @@ Prefab:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0574f7d8188ac464b88d67e5ee733df5, type: 2}
   m_IsPrefabParent: 0
@@ -16476,6 +17246,7 @@ Prefab:
       propertyPath: m_RootOrder
       value: 133
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1136881740606342, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
       propertyPath: m_Name
       value: Wall (143)
@@ -16628,6 +17399,20 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5e5def0db565a494f9fe895f2f6bfdce, type: 2}
   m_IsPrefabParent: 0
+=======
+    - target: {fileID: 1136881740606342, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
+      propertyPath: m_Name
+      value: Wall (143)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
+  m_IsPrefabParent: 0
+--- !u!4 &1519455198 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4561862935511068, guid: e9700d13917c27340946fe5c0faa8f3c,
+    type: 2}
+  m_PrefabInternal: {fileID: 1519455197}
+>>>>>>> Stashed changes
 --- !u!1001 &1524971651
 Prefab:
   m_ObjectHideFlags: 0
@@ -16683,10 +17468,13 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1136881740606342, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
   m_IsPrefabParent: 0
@@ -16750,10 +17538,13 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1170542294313720, guid: ac5d7c9949f7ec34ca17c654c0acecca, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ac5d7c9949f7ec34ca17c654c0acecca, type: 2}
   m_IsPrefabParent: 0
@@ -16815,6 +17606,7 @@ Prefab:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1796163866934964, guid: 0574f7d8188ac464b88d67e5ee733df5, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
@@ -16823,6 +17615,8 @@ Prefab:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0574f7d8188ac464b88d67e5ee733df5, type: 2}
   m_IsPrefabParent: 0
@@ -16874,10 +17668,13 @@ Prefab:
       propertyPath: m_Name
       value: Wall (24)
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1136881740606342, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
   m_IsPrefabParent: 0
@@ -16941,10 +17738,13 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1136881740606342, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
   m_IsPrefabParent: 0
@@ -16996,10 +17796,13 @@ Prefab:
       propertyPath: m_Name
       value: Wall (95)
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1136881740606342, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
   m_IsPrefabParent: 0
@@ -17051,10 +17854,13 @@ Prefab:
       propertyPath: m_Name
       value: Wall (163)
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1136881740606342, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
   m_IsPrefabParent: 0
@@ -17116,6 +17922,7 @@ Prefab:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1796163866934964, guid: 0574f7d8188ac464b88d67e5ee733df5, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
@@ -17124,6 +17931,8 @@ Prefab:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0574f7d8188ac464b88d67e5ee733df5, type: 2}
   m_IsPrefabParent: 0
@@ -17187,10 +17996,13 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1136881740606342, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
   m_IsPrefabParent: 0
@@ -17242,10 +18054,13 @@ Prefab:
       propertyPath: m_Name
       value: Wall (58)
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1136881740606342, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
   m_IsPrefabParent: 0
@@ -17297,10 +18112,13 @@ Prefab:
       propertyPath: m_Name
       value: Sandbag (Bottom) (55)
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1170542294313720, guid: ac5d7c9949f7ec34ca17c654c0acecca, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ac5d7c9949f7ec34ca17c654c0acecca, type: 2}
   m_IsPrefabParent: 0
@@ -17352,10 +18170,13 @@ Prefab:
       propertyPath: m_Name
       value: Wall (1)
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1136881740606342, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
   m_IsPrefabParent: 0
@@ -17419,10 +18240,13 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1136881740606342, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
   m_IsPrefabParent: 0
@@ -17491,10 +18315,13 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1170542294313720, guid: ac5d7c9949f7ec34ca17c654c0acecca, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ac5d7c9949f7ec34ca17c654c0acecca, type: 2}
   m_IsPrefabParent: 0
@@ -17556,6 +18383,7 @@ Prefab:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1796163866934964, guid: 0574f7d8188ac464b88d67e5ee733df5, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
@@ -17564,6 +18392,8 @@ Prefab:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0574f7d8188ac464b88d67e5ee733df5, type: 2}
   m_IsPrefabParent: 0
@@ -17615,10 +18445,13 @@ Prefab:
       propertyPath: m_Name
       value: Sandbag (Bottom) (14)
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1170542294313720, guid: ac5d7c9949f7ec34ca17c654c0acecca, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ac5d7c9949f7ec34ca17c654c0acecca, type: 2}
   m_IsPrefabParent: 0
@@ -17745,6 +18578,7 @@ Prefab:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1570573681725196, guid: 0574f7d8188ac464b88d67e5ee733df5, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
@@ -17753,6 +18587,8 @@ Prefab:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0574f7d8188ac464b88d67e5ee733df5, type: 2}
   m_IsPrefabParent: 0
@@ -17804,10 +18640,13 @@ Prefab:
       propertyPath: m_Name
       value: Wall (100)
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1136881740606342, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
   m_IsPrefabParent: 0
@@ -17871,10 +18710,13 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1136881740606342, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
   m_IsPrefabParent: 0
@@ -17936,6 +18778,7 @@ Prefab:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1570573681725196, guid: 0574f7d8188ac464b88d67e5ee733df5, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
@@ -17944,6 +18787,8 @@ Prefab:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0574f7d8188ac464b88d67e5ee733df5, type: 2}
   m_IsPrefabParent: 0
@@ -17952,6 +18797,7 @@ Transform:
   m_PrefabParentObject: {fileID: 4904547200734516, guid: 0574f7d8188ac464b88d67e5ee733df5,
     type: 2}
   m_PrefabInternal: {fileID: 1649728979}
+<<<<<<< Updated upstream
 --- !u!4 &1658473246
 Transform:
   m_ObjectHideFlags: 0
@@ -17970,6 +18816,13 @@ Transform:
   m_Father: {fileID: 345152765}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+--- !u!4 &1658473246 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4493116451416494, guid: 73f7c1411f9a18c428447e37c1d501c0,
+    type: 2}
+  m_PrefabInternal: {fileID: 1418917618}
+>>>>>>> Stashed changes
 --- !u!1 &1670426500
 GameObject:
   m_ObjectHideFlags: 0
@@ -17997,7 +18850,11 @@ Transform:
   m_Children:
   - {fileID: 1306851265}
   m_Father: {fileID: 0}
+<<<<<<< Updated upstream
   m_RootOrder: 2
+=======
+  m_RootOrder: 4
+>>>>>>> Stashed changes
   m_LocalEulerAnglesHint: {x: 60, y: 0, z: 0}
 --- !u!1001 &1671032958
 Prefab:
@@ -18052,6 +18909,7 @@ Prefab:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1570573681725196, guid: 0574f7d8188ac464b88d67e5ee733df5, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
@@ -18060,6 +18918,8 @@ Prefab:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0574f7d8188ac464b88d67e5ee733df5, type: 2}
   m_IsPrefabParent: 0
@@ -18121,6 +18981,7 @@ Prefab:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1796163866934964, guid: 0574f7d8188ac464b88d67e5ee733df5, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
@@ -18129,6 +18990,8 @@ Prefab:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0574f7d8188ac464b88d67e5ee733df5, type: 2}
   m_IsPrefabParent: 0
@@ -18192,10 +19055,13 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1136881740606342, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
   m_IsPrefabParent: 0
@@ -18259,10 +19125,13 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1170542294313720, guid: ac5d7c9949f7ec34ca17c654c0acecca, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ac5d7c9949f7ec34ca17c654c0acecca, type: 2}
   m_IsPrefabParent: 0
@@ -18326,10 +19195,13 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1136881740606342, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
   m_IsPrefabParent: 0
@@ -18381,10 +19253,13 @@ Prefab:
       propertyPath: m_Name
       value: Wall (120)
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1136881740606342, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
   m_IsPrefabParent: 0
@@ -18436,10 +19311,13 @@ Prefab:
       propertyPath: m_Name
       value: Wall (150)
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1136881740606342, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
   m_IsPrefabParent: 0
@@ -18503,10 +19381,13 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1136881740606342, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
   m_IsPrefabParent: 0
@@ -18558,10 +19439,13 @@ Prefab:
       propertyPath: m_Name
       value: Sandbag (Bottom) (4)
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1170542294313720, guid: ac5d7c9949f7ec34ca17c654c0acecca, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ac5d7c9949f7ec34ca17c654c0acecca, type: 2}
   m_IsPrefabParent: 0
@@ -18625,10 +19509,13 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1136881740606342, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
   m_IsPrefabParent: 0
@@ -18642,7 +19529,11 @@ Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
+<<<<<<< Updated upstream
     m_TransformParent: {fileID: 1021311012}
+=======
+    m_TransformParent: {fileID: 0}
+>>>>>>> Stashed changes
     m_Modifications:
     - target: {fileID: 4775749020659534, guid: ac5d7c9949f7ec34ca17c654c0acecca, type: 2}
       propertyPath: m_LocalPosition.x
@@ -18658,7 +19549,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4775749020659534, guid: ac5d7c9949f7ec34ca17c654c0acecca, type: 2}
       propertyPath: m_LocalRotation.x
+<<<<<<< Updated upstream
       value: -0
+=======
+      value: 0
+>>>>>>> Stashed changes
       objectReference: {fileID: 0}
     - target: {fileID: 4775749020659534, guid: ac5d7c9949f7ec34ca17c654c0acecca, type: 2}
       propertyPath: m_LocalRotation.y
@@ -18666,7 +19561,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4775749020659534, guid: ac5d7c9949f7ec34ca17c654c0acecca, type: 2}
       propertyPath: m_LocalRotation.z
+<<<<<<< Updated upstream
       value: -0
+=======
+      value: 0
+>>>>>>> Stashed changes
       objectReference: {fileID: 0}
     - target: {fileID: 4775749020659534, guid: ac5d7c9949f7ec34ca17c654c0acecca, type: 2}
       propertyPath: m_LocalRotation.w
@@ -18674,7 +19573,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4775749020659534, guid: ac5d7c9949f7ec34ca17c654c0acecca, type: 2}
       propertyPath: m_RootOrder
+<<<<<<< Updated upstream
       value: 56
+=======
+      value: 1
+>>>>>>> Stashed changes
       objectReference: {fileID: 0}
     - target: {fileID: 1170542294313720, guid: ac5d7c9949f7ec34ca17c654c0acecca, type: 2}
       propertyPath: m_Name
@@ -18684,6 +19587,7 @@ Prefab:
       propertyPath: m_LocalEulerAnglesHint.y
       value: 90
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 4775749020659534, guid: ac5d7c9949f7ec34ca17c654c0acecca, type: 2}
       propertyPath: m_LocalScale.x
       value: 5
@@ -18704,6 +19608,11 @@ Transform:
   m_PrefabParentObject: {fileID: 4775749020659534, guid: ac5d7c9949f7ec34ca17c654c0acecca,
     type: 2}
   m_PrefabInternal: {fileID: 1762725807}
+=======
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: ac5d7c9949f7ec34ca17c654c0acecca, type: 2}
+  m_IsPrefabParent: 0
+>>>>>>> Stashed changes
 --- !u!1001 &1767220995
 Prefab:
   m_ObjectHideFlags: 0
@@ -18759,10 +19668,13 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1136881740606342, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
   m_IsPrefabParent: 0
@@ -18826,10 +19738,13 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1136881740606342, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
   m_IsPrefabParent: 0
@@ -18886,10 +19801,13 @@ Prefab:
       propertyPath: m_Name
       value: Sandbag (Bottom) (5)
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1170542294313720, guid: ac5d7c9949f7ec34ca17c654c0acecca, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ac5d7c9949f7ec34ca17c654c0acecca, type: 2}
   m_IsPrefabParent: 0
@@ -18898,100 +19816,6 @@ Transform:
   m_PrefabParentObject: {fileID: 4775749020659534, guid: ac5d7c9949f7ec34ca17c654c0acecca,
     type: 2}
   m_PrefabInternal: {fileID: 1798878452}
---- !u!1 &1802645697
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 1802645701}
-  - component: {fileID: 1802645700}
-  - component: {fileID: 1802645699}
-  - component: {fileID: 1802645698}
-  m_Layer: 5
-  m_Name: Canvas
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1802645698
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1802645697}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1301386320, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_IgnoreReversedGraphics: 1
-  m_BlockingObjects: 0
-  m_BlockingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
---- !u!114 &1802645699
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1802645697}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 1980459831, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
-  m_ReferencePixelsPerUnit: 100
-  m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
-  m_ScreenMatchMode: 0
-  m_MatchWidthOrHeight: 0
-  m_PhysicalUnit: 3
-  m_FallbackScreenDPI: 96
-  m_DefaultSpriteDPI: 96
-  m_DynamicPixelsPerUnit: 1
---- !u!223 &1802645700
-Canvas:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1802645697}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_RenderMode: 0
-  m_Camera: {fileID: 0}
-  m_PlaneDistance: 100
-  m_PixelPerfect: 0
-  m_ReceivesEvents: 1
-  m_OverrideSorting: 0
-  m_OverridePixelPerfect: 0
-  m_SortingBucketNormalizedSize: 0
-  m_AdditionalShaderChannelsFlag: 0
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
-  m_TargetDisplay: 0
---- !u!224 &1802645701
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1802645697}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 365, y: 311, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 493205508}
-  m_Father: {fileID: 0}
-  m_RootOrder: 15
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
-  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1001 &1807941224
 Prefab:
   m_ObjectHideFlags: 0
@@ -19047,10 +19871,13 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1136881740606342, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
   m_IsPrefabParent: 0
@@ -19102,10 +19929,13 @@ Prefab:
       propertyPath: m_Name
       value: Wall (17)
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1136881740606342, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
   m_IsPrefabParent: 0
@@ -19157,10 +19987,13 @@ Prefab:
       propertyPath: m_Name
       value: Sandbag (Bottom) (56)
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1170542294313720, guid: ac5d7c9949f7ec34ca17c654c0acecca, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ac5d7c9949f7ec34ca17c654c0acecca, type: 2}
   m_IsPrefabParent: 0
@@ -19224,10 +20057,13 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1170542294313720, guid: ac5d7c9949f7ec34ca17c654c0acecca, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ac5d7c9949f7ec34ca17c654c0acecca, type: 2}
   m_IsPrefabParent: 0
@@ -19291,10 +20127,13 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1136881740606342, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
   m_IsPrefabParent: 0
@@ -19346,10 +20185,13 @@ Prefab:
       propertyPath: m_Name
       value: Wall (27)
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1136881740606342, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
   m_IsPrefabParent: 0
@@ -19413,10 +20255,13 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1136881740606342, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
   m_IsPrefabParent: 0
@@ -19468,10 +20313,13 @@ Prefab:
       propertyPath: m_Name
       value: Wall (57)
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1136881740606342, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
   m_IsPrefabParent: 0
@@ -19535,10 +20383,13 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1136881740606342, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
   m_IsPrefabParent: 0
@@ -19595,10 +20446,13 @@ Prefab:
       propertyPath: m_Name
       value: Wall (118)
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1136881740606342, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
   m_IsPrefabParent: 0
@@ -19650,10 +20504,13 @@ Prefab:
       propertyPath: m_Name
       value: Wall (168)
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1136881740606342, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
   m_IsPrefabParent: 0
@@ -19705,10 +20562,13 @@ Prefab:
       propertyPath: m_Name
       value: Wall (170)
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1136881740606342, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
   m_IsPrefabParent: 0
@@ -19730,7 +20590,11 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
+<<<<<<< Updated upstream
   m_StaticEditorFlags: 4294967295
+=======
+  m_StaticEditorFlags: 0
+>>>>>>> Stashed changes
   m_IsActive: 1
 --- !u!4 &1911601706
 Transform:
@@ -19959,10 +20823,13 @@ Prefab:
       propertyPath: m_Name
       value: Wall (123)
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1136881740606342, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
   m_IsPrefabParent: 0
@@ -20014,10 +20881,13 @@ Prefab:
       propertyPath: m_Name
       value: Wall (109)
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1136881740606342, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
   m_IsPrefabParent: 0
@@ -20081,10 +20951,13 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1136881740606342, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
   m_IsPrefabParent: 0
@@ -20136,10 +21009,13 @@ Prefab:
       propertyPath: m_Name
       value: Sandbag (Bottom) (19)
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1170542294313720, guid: ac5d7c9949f7ec34ca17c654c0acecca, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ac5d7c9949f7ec34ca17c654c0acecca, type: 2}
   m_IsPrefabParent: 0
@@ -20148,6 +21024,7 @@ Transform:
   m_PrefabParentObject: {fileID: 4775749020659534, guid: ac5d7c9949f7ec34ca17c654c0acecca,
     type: 2}
   m_PrefabInternal: {fileID: 1947224046}
+<<<<<<< Updated upstream
 --- !u!1001 &1955489470
 Prefab:
   m_ObjectHideFlags: 0
@@ -20284,6 +21161,8 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5e5def0db565a494f9fe895f2f6bfdce, type: 2}
   m_IsPrefabParent: 0
+=======
+>>>>>>> Stashed changes
 --- !u!1001 &1961762066
 Prefab:
   m_ObjectHideFlags: 0
@@ -20327,10 +21206,13 @@ Prefab:
       propertyPath: m_Name
       value: Wall (88)
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1136881740606342, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
   m_IsPrefabParent: 0
@@ -20382,10 +21264,13 @@ Prefab:
       propertyPath: m_Name
       value: Wall (154)
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1136881740606342, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
   m_IsPrefabParent: 0
@@ -20437,10 +21322,13 @@ Prefab:
       propertyPath: m_Name
       value: Wall (83)
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1136881740606342, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
   m_IsPrefabParent: 0
@@ -20492,10 +21380,13 @@ Prefab:
       propertyPath: m_Name
       value: Sandbag (Bottom) (50)
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1170542294313720, guid: ac5d7c9949f7ec34ca17c654c0acecca, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ac5d7c9949f7ec34ca17c654c0acecca, type: 2}
   m_IsPrefabParent: 0
@@ -20547,10 +21438,13 @@ Prefab:
       propertyPath: m_Name
       value: Wall (117)
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1136881740606342, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
   m_IsPrefabParent: 0
@@ -20614,10 +21508,13 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1136881740606342, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
   m_IsPrefabParent: 0
@@ -20669,10 +21566,13 @@ Prefab:
       propertyPath: m_Name
       value: Wall (162)
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1136881740606342, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
   m_IsPrefabParent: 0
@@ -20724,10 +21624,13 @@ Prefab:
       propertyPath: m_Name
       value: Wall (98)
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1136881740606342, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
   m_IsPrefabParent: 0
@@ -20779,10 +21682,13 @@ Prefab:
       propertyPath: m_Name
       value: Wall (99)
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1136881740606342, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
   m_IsPrefabParent: 0
@@ -20834,10 +21740,13 @@ Prefab:
       propertyPath: m_Name
       value: Wall (119)
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1136881740606342, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
   m_IsPrefabParent: 0
@@ -20889,10 +21798,13 @@ Prefab:
       propertyPath: m_Name
       value: Sandbag (Bottom) (52)
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1170542294313720, guid: ac5d7c9949f7ec34ca17c654c0acecca, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ac5d7c9949f7ec34ca17c654c0acecca, type: 2}
   m_IsPrefabParent: 0
@@ -20956,10 +21868,13 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1136881740606342, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
   m_IsPrefabParent: 0
@@ -21023,10 +21938,13 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1136881740606342, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
   m_IsPrefabParent: 0
@@ -21090,10 +22008,13 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1170542294313720, guid: ac5d7c9949f7ec34ca17c654c0acecca, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ac5d7c9949f7ec34ca17c654c0acecca, type: 2}
   m_IsPrefabParent: 0
@@ -21157,10 +22078,13 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1136881740606342, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
   m_IsPrefabParent: 0
@@ -21222,6 +22146,7 @@ Prefab:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1570573681725196, guid: 0574f7d8188ac464b88d67e5ee733df5, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
@@ -21230,6 +22155,8 @@ Prefab:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0574f7d8188ac464b88d67e5ee733df5, type: 2}
   m_IsPrefabParent: 0
@@ -21281,10 +22208,13 @@ Prefab:
       propertyPath: m_Name
       value: Wall (14)
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1136881740606342, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
   m_IsPrefabParent: 0
@@ -21342,6 +22272,7 @@ Prefab:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1570573681725196, guid: 0574f7d8188ac464b88d67e5ee733df5, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
@@ -21350,6 +22281,8 @@ Prefab:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0574f7d8188ac464b88d67e5ee733df5, type: 2}
   m_IsPrefabParent: 0
@@ -21401,10 +22334,13 @@ Prefab:
       propertyPath: m_Name
       value: Wall (152)
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1136881740606342, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
   m_IsPrefabParent: 0
@@ -21468,10 +22404,13 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+<<<<<<< Updated upstream
     - target: {fileID: 1136881740606342, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+=======
+>>>>>>> Stashed changes
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e9700d13917c27340946fe5c0faa8f3c, type: 2}
   m_IsPrefabParent: 0

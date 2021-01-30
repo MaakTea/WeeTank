@@ -135,9 +135,14 @@ public class AiInput2 : MonoBehaviour
         else
         {
 			//or do a default action here
-			turretScript.targetValid = false;
 			turretScript.fireInput = false;
+			//turretScript.targetValid = false;
 			//ToDo: make the turret look forwards or scan
+			if (Random.value < 0.02f)
+			{
+				turretScript.targetPos = transform.position + Quaternion.AngleAxis(Random.Range(-90, 90), Vector3.up) * transform.forward * viewDistance;
+				turretScript.targetValid = (Random.value < 0.25f);
+			}
 		}
 	}
 

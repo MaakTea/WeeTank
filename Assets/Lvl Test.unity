@@ -1261,10 +1261,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 252400454}
+  healthScript: {fileID: 0}
   respawns: 0
   respawnPoints: []
   tanks: []
   uiManager: {fileID: 751163436}
+  autoPlay: 0
 --- !u!114 &751163436
 MonoBehaviour:
   m_ObjectHideFlags: 0

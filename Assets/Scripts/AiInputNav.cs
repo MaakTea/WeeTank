@@ -14,6 +14,12 @@ public class AiInputNav : MonoBehaviour
 
 	public Vector3 moveTarget;
 
+	public float decidedThrottle = 1.0f;
+	public bool stopToTurn = true;
+	public float steerTolerance = 10.0f;
+	public float stopProbability = 0.2f;
+
+
     // Use this for initialization
     void Start ()
 	{
@@ -77,14 +83,17 @@ public class AiInputNav : MonoBehaviour
 
 		Vector3 targetDirection = moveTarget - transform.position;
 
-			targetDirection = Quaternion.Inverse(transform.rotation) * targetDirection;
-			// -- setting the angle to turn --
-			float angle = Mathf.Atan2(targetDirection.x, targetDirection.z) * Mathf.Rad2Deg;
-			if (angle > 180)
-			{
-				angle -= 360;
-			}
-			tankScript.steering = Mathf.Clamp(angle*0.1f, -1, 1);
-			tankScript.gas = Mathf.Abs(tankScript.steering) > 0.5f ? 0.25f : 1;
+		targetDirection = Quaternion.Inverse(transform.rotation) * targetDirection;
+		// -- setting the angle to turn --
+		float angle = Mathf.Atan2(targetDirection.x, targetDirection.z) * Mathf.Rad2Deg;
+		if (angle > 180)
+		{
+			angle -= 360;
+		}
+		tankScript.steering = Mathf.Abs(angle) < steerTolerance ? 0.0f : Mathf.Clamp(angle*0.1f, -1, 1);
+
+		if (Random.value < 0.01f)
+			decidedThrottle = Random.value < stopProbability ? 0.0f : Random.Range(0.5f, 1.0f);
+		tankScript.gas = decidedThrottle * (stopToTurn ? (Mathf.Abs(tankScript.steering) > 0.5f ? 0.25f : 1.0f) : 1.0f);
 	}
 }

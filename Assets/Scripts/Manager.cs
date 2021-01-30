@@ -78,10 +78,7 @@ public class Manager : MonoBehaviour
             
         }
 	}
-<<<<<<< Updated upstream
 
-=======
->>>>>>> Stashed changes
     public void Spawn(GameObject item, Transform pos)
     {
         Instantiate(item, pos);

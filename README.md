@@ -35,7 +35,7 @@ ToDo:
     - FULL WALLS that block everything: movement, visibility, shooting
     - HALF walls that block movement but allow visibilityand shooting
     - DESTRUCTABLE (full) walls (by shooting)
-    COULD have...
+  - COULD have...
     - destructable half walls?
     - "holes" that blocks movement but allows shooting like half walls, but cannot be destroyed
     - walls that can be destroyed by driving into

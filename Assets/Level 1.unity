@@ -910,21 +910,21 @@ Prefab:
       propertyPath: m_Pivot.y
       value: 0.5
       objectReference: {fileID: 0}
-    - target: {fileID: 114803546790541274, guid: 15a3ffdbfa5457b47b92156beb52b660,
-        type: 2}
-      propertyPath: turret
-      value: 
-      objectReference: {fileID: 1079925558}
-    - target: {fileID: 224780900326057966, guid: 15a3ffdbfa5457b47b92156beb52b660,
-        type: 2}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 224479598679543166, guid: 15a3ffdbfa5457b47b92156beb52b660,
         type: 2}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 224780900326057966, guid: 15a3ffdbfa5457b47b92156beb52b660,
+        type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114803546790541274, guid: 15a3ffdbfa5457b47b92156beb52b660,
+        type: 2}
+      propertyPath: turret
+      value: 
+      objectReference: {fileID: 1079925558}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 15a3ffdbfa5457b47b92156beb52b660, type: 2}
   m_IsPrefabParent: 0

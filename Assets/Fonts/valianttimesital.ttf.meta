@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: f3820887edebc4e4da56505b11e8d384
+timeCreated: 1612025180
+licenseType: Free
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Valiant Times Italic
+  fontNames:
+  - Valiant Times Italic
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

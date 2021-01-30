@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: af36515736e0bfb46815d51e4b6b51ec
+timeCreated: 1612025179
+licenseType: Free
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Valiant Times Halftone
+  fontNames:
+  - Valiant Times Halftone
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

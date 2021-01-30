@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: cedecd2104d1ac14f889043606d5b1ad
+timeCreated: 1612025180
+licenseType: Free
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: MaritimeSans Extrabold
+  fontNames:
+  - MaritimeSans Extrabold
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

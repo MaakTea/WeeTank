@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: de14ba1958d004b4d8a92f56d497acba
+timeCreated: 1612025180
+licenseType: Free
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Maritime Sans
+  fontNames:
+  - Maritime Sans
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 0a7162209a1144b409b498e7e6f13451, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

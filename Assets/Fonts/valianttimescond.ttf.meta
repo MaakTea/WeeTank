@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 9ae9aaa4db3b76147b4d503460810170
+timeCreated: 1612025179
+licenseType: Free
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Valiant Times Condensed
+  fontNames:
+  - Valiant Times Condensed
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

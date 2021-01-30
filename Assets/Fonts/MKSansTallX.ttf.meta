@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 74cb882102cfac449bb4f9905d449bb8
+timeCreated: 1612025178
+licenseType: Free
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: MKSansTallX
+  fontNames:
+  - MKSansTallX
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

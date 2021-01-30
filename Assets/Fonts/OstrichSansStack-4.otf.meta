@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 93b8454f565eb4b4a9e84cb22e1a789f
+timeCreated: 1612025179
+licenseType: Free
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Ostrich Sans Stack
+  fontNames:
+  - Ostrich Sans Stack
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 6408669fb8930bd43b0f5fb5075e506a, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

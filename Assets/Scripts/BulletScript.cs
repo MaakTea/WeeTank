@@ -7,8 +7,8 @@ public class BulletScript : MonoBehaviour {
     public float bulletSpeed = 1;
     public int damage = 10;
     public int bounces = 1;
-        public bool bounced = false;
-        public float bounceTimer = 0f;
+    public bool bounced = false;
+    public float bounceTimer = 0f;
 
     public GameObject owner;
     public Object explosion;

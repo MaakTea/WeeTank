@@ -10,6 +10,10 @@ public class AiInput2 : MonoBehaviour
 	public float viewDistance = 20.0f;
 	public float viewHeight = 1.5f;
 
+	public float aimAccuracyToFire = 10.0f;
+	public float aimAhead = 0;
+	public float bulletSpeed = 15;	//ToDo: get it from turretScript.bullet on start
+
 	public enum TargetType
     {
         Waypoint,
@@ -34,7 +38,8 @@ public class AiInput2 : MonoBehaviour
     public class Target
     {
         public Vector3 lastKnownPos;
-        public TargetType type;
+		public Vector3 lastKnownVel;
+		public TargetType type;
         public Transform actualTarget;
         public float timer;
     }
@@ -65,16 +70,16 @@ public class AiInput2 : MonoBehaviour
 
     public void FixedUpdate()
     {
-		UpdateAI();
+		UpdateAI(Time.fixedDeltaTime);
 	}
 
-	public void UpdateAI()
+	public void UpdateAI(float dT)
     {
 		//NEW AI
 
         //ToDo:
         // refresh targets (requires support code, "sensors")
-        UpdateMemory();
+        UpdateMemory(dT);
         UpdateSensors();
 
         //clear previous actions
@@ -92,13 +97,25 @@ public class AiInput2 : MonoBehaviour
                         Action a = new Action();
                         a.type = ActionType.Attack;
 						a.target = t;
-                        a.cost = 1;
-                        a.benefit = 1;
+                        a.cost = 1.0f;
+                        a.benefit = 1.0f;
                         //...
                         possibleActions.Add(a);
                     }
                     //...
                     break;
+
+				case TargetType.WasEnemy:
+					{
+						Action a = new Action();
+						a.type = ActionType.MoveTo;
+						a.target = t;
+						a.cost = 1.0f;
+						a.benefit = 0.2f;
+						//...
+						possibleActions.Add(a);
+					}
+					break;
             }
         }
 
@@ -122,8 +139,21 @@ public class AiInput2 : MonoBehaviour
             {
 				case ActionType.Attack:
 					turretScript.targetPos = bestAction.target.lastKnownPos;
+					if (aimAhead > 0)
+					{
+						float distance = (turretScript.targetPos - turretScript.transform.position).magnitude;
+						float extrapolationTime = aimAhead * (distance / bulletSpeed);
+						turretScript.targetPos += bestAction.target.lastKnownVel * extrapolationTime;
+					}
 					turretScript.targetValid = true;
-					turretScript.fireInput = Vector3.Angle(turretScript.transform.InverseTransformPoint(turretScript.targetPos), Vector3.forward) < 10;
+					turretScript.fireInput = Vector3.Angle(turretScript.transform.InverseTransformPoint(turretScript.targetPos), Vector3.forward) < aimAccuracyToFire;
+					break;
+
+				case ActionType.MoveTo:
+					//ToDo: we should manage selecting waypoints HERE, not in a separate script (AiInputNav)
+					// the actual communication with the navmeshagent can stay there
+					turretScript.targetValid = true;
+					turretScript.fireInput = false;
 					break;
 
                 default:
@@ -146,7 +176,7 @@ public class AiInput2 : MonoBehaviour
 		}
 	}
 
-    public void UpdateMemory()
+    public void UpdateMemory(float dT)
     {
         //ToDo: for each known target, check line of sight: can we still see it?
         // if not, turn it into a memory (or forget it right away)
@@ -159,7 +189,10 @@ public class AiInput2 : MonoBehaviour
 				case TargetType.Enemy:
 					if (t.actualTarget == null)
 					{//doesn't exist. destroyed?
-						currentTargets.RemoveAt(i);
+					 //currentTargets.RemoveAt(i);
+						t.type = TargetType.WasEnemy;
+						t.timer = 1;
+						DebugExtension.DebugCircle(t.lastKnownPos, 1, 10);
 						break;
 					}
 					{
@@ -168,18 +201,34 @@ public class AiInput2 : MonoBehaviour
 						Debug.DrawRay(transform.position + Vector3.up * viewHeight, toTarget, Color.grey);
 						bool hitSomething = Physics.Raycast(transform.position + Vector3.up * viewHeight, toTarget.normalized, out hit, toTarget.magnitude);
 						if (!hitSomething)
-						{
-							currentTargets.RemoveAt(i);
+						{//there's nothing there
+							//currentTargets.RemoveAt(i);
+							t.type = TargetType.WasEnemy;
+							t.timer = 3;
+							DebugExtension.DebugCircle(t.lastKnownPos, 1, 10);
 						} else
 						{
 							if (hit.collider.transform.IsChildOf(t.actualTarget.transform))
 							{//it's the same
+								t.lastKnownVel = Vector3.Lerp(t.lastKnownVel, (hit.collider.transform.position - t.lastKnownPos) / dT, 0.25f);
 								t.lastKnownPos = hit.collider.transform.position;
 							} else
 							{//hit something else; can't see it
-								currentTargets.RemoveAt(i);
+								 //currentTargets.RemoveAt(i);
+								t.type = TargetType.WasEnemy;
+								t.timer = 10;	//investigate
+								DebugExtension.DebugCircle(t.lastKnownPos, 1, 10);
 							}
 						}
+					}
+					break;
+
+				case TargetType.WasEnemy:
+					t.timer -= dT;
+					if (t.timer < 0)
+					{
+						currentTargets.RemoveAt(i);
+						break;
 					}
 					break;
 			}
@@ -207,7 +256,8 @@ public class AiInput2 : MonoBehaviour
                     Target t = new Target();
                     t.type = tank.team == this.tankScript.team ? TargetType.Friend : TargetType.Enemy;
                     t.lastKnownPos = hit.collider.transform.position;
-                    t.actualTarget = tank.transform;
+					t.lastKnownVel = Vector3.zero;
+					t.actualTarget = tank.transform;
                     currentTargets.Add(t);
                 }
             }

@@ -11,11 +11,11 @@ public class Turret : MonoBehaviour
     public bool targetValid;
     public Vector3 targetPos;
 
-    [Range(-1, 1)]
-    public float rotInput;
+    //[Range(-1, 1)]
+    //public float rotInput;
 
-    public Vector3 mouseLocation;
-    public Quaternion rotateToMouse;
+    //public Vector3 mouseLocation;
+    //public Quaternion rotateToMouse;
 
     public float turnSpeed = 1;
     //public float fireSpeed = 1;
@@ -39,6 +39,7 @@ public class Turret : MonoBehaviour
         {
             // -- black line from US to the TARGET --
             Debug.DrawLine(transform.position, targetPos, Color.black);
+			DebugExtension.DebugCircle(targetPos, Color.black, 3.0f);
 
             // -- setting the euler angle to rotate to --
             Vector3 euler = Quaternion.LookRotation(targetPos - transform.position).eulerAngles;

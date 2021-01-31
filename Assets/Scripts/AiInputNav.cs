@@ -79,6 +79,7 @@ public class AiInputNav : MonoBehaviour
 
 			//moveTarget = transform.position + agent.desiredVelocity;
 		}
+
 		moveTarget = transform.position + agent.desiredVelocity;
 
 		Vector3 targetDirection = moveTarget - transform.position;

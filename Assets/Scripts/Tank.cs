@@ -11,6 +11,7 @@ public class Tank : MonoBehaviour
 
     public float moveSpeed = 5;
 	public float reverseSpeed = 3;
+	public float moveSpeedTurning = 0.5f;	//set this to zero to make it stop while turning, 1 to not lose any speed
 	public float turnSpeed = 60;
 
 	public int team;
@@ -46,6 +47,7 @@ public class Tank : MonoBehaviour
 		//Vector3 rot = new Vector3(Mathf.Cos((transform.rotation.eulerAngles.z + 90) * Mathf.Deg2Rad), Mathf.Sin((transform.rotation.eulerAngles.z + 90) * Mathf.Deg2Rad), 0); //player.rotation.eulerAngles.z
 
 		float speed = y > 0 ? moveSpeed : reverseSpeed;
+		speed = Mathf.Lerp(speed, speed * moveSpeedTurning, Mathf.Abs(x));
 		transform.position += transform.forward * y * speed * Time.deltaTime;
 
 		UpdateAudio();

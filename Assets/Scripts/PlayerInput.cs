@@ -32,8 +32,8 @@ public class PlayerInput : MonoBehaviour
 					float x = Input.GetAxis("Horizontal");
 					float y = Input.GetAxis("Vertical");
 
-					tankScript.steering = x;
-					tankScript.gas = y;
+					tankScript.steering = Mathf.Clamp(x, -1, 1);
+					tankScript.gas = Mathf.Clamp(y, -1, 1);
 
 					float mouseX = Input.GetAxisRaw("Mouse X");
 
@@ -55,8 +55,15 @@ public class PlayerInput : MonoBehaviour
 			default:
 				{
 					Vector2 leftStick = GamepadInput.GamePad.GetAxis(GamepadInput.GamePad.Axis.LeftStick, (GamepadInput.GamePad.Index)gamePadIndex);
-					tankScript.steering = leftStick.x;
-					tankScript.gas = leftStick.y;
+					//remap circle to square
+					leftStick = DiscToSquare(leftStick);
+					Vector2 dPad = GamepadInput.GamePad.GetAxis(GamepadInput.GamePad.Axis.Dpad, (GamepadInput.GamePad.Index)gamePadIndex);
+					if (dPad.sqrMagnitude > 0.1f)
+						dPad = DiscToSquare(dPad.normalized);
+					Vector2 moveInput = leftStick + dPad;
+
+					tankScript.steering = Mathf.Clamp(moveInput.x, -1, 1);
+					tankScript.gas = Mathf.Clamp(moveInput.y, -1, 1);
 
 					Vector2 rightStick = GamepadInput.GamePad.GetAxis(GamepadInput.GamePad.Axis.RightStick, (GamepadInput.GamePad.Index)gamePadIndex);
 					//turretScript.targetPos = turretScript.transform.position + //new Vector3(rightStick.x, 0, rightStick.y) * 20.0f;
@@ -70,4 +77,27 @@ public class PlayerInput : MonoBehaviour
 		}
 
     }
+
+	//from https://arxiv.org/ftp/arxiv/papers/1509/1509.06344.pdf
+	public Vector2 DiscToSquare(Vector2 uv)
+	{
+		uv = Vector2.ClampMagnitude(uv, 1.0f);
+		float u = uv.x;
+		float v = uv.y;
+		float twosqrtwo = 2.0f * Mathf.Sqrt(2.0f);
+		float x = 0.5f * Mathf.Sqrt(2.0f + u * u - v * v + twosqrtwo * u)
+			    - 0.5f * Mathf.Sqrt(2.0f + u * u - v * v - twosqrtwo * u);
+		float y = 0.5f * Mathf.Sqrt(2.0f - u * u + v * v + twosqrtwo * v)
+				- 0.5f * Mathf.Sqrt(2.0f - u * u + v * v - twosqrtwo * v);
+		return new Vector2(x, y);
+	}
+
+	public Vector2 SquareToDisc(Vector2 xy)
+	{
+		float x = xy.x;
+		float y = xy.y;
+		float u = x * Mathf.Sqrt(1.0f - y * y * 0.5f);
+		float v = y * Mathf.Sqrt(1.0f - x * x * 0.5f);
+		return new Vector2(u, v);
+	}
 }

@@ -326,7 +326,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1764264039417176}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.39, y: 0, z: 0.05}
+  m_LocalPosition: {x: -25.07, y: 0, z: -24.82}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4334662158525806}
@@ -817,9 +817,6 @@ MonoBehaviour:
   barrel: {fileID: 4382117846176308}
   targetValid: 0
   targetPos: {x: 0, y: 0, z: 0}
-  rotInput: 0
-  mouseLocation: {x: 0, y: 0, z: 0}
-  rotateToMouse: {x: 0, y: 0, z: 0, w: 0}
   turnSpeed: 150
   fireInput: 0
   reloadSpeed: 2
@@ -839,6 +836,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tankScript: {fileID: 114888158996640940}
   turretScript: {fileID: 114679761793641996}
+  gamePadIndex: -1
   mouseCam: {fileID: 0}
   minTargetDistance: 5
   hitValid: 0
@@ -857,6 +855,7 @@ MonoBehaviour:
   gas: 0
   moveSpeed: 5
   reverseSpeed: 3
+  moveSpeedTurning: 0.5
   turnSpeed: 90
   team: 0
   hitbox: {fileID: 4334662158525806}

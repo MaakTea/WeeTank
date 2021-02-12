@@ -3,14 +3,33 @@ a project similar to wii tanks
 
 ![screenshot](./Images/weetanks1.png)
 
+Done:
+  - detect visibility to target
+  - use navmesh
+  - separate MOVE target and AIM target for tanks :) 
+  - win/lose (game over) condition and (re)start (next) level
+  - fade in, fade out, UI feedback ("GAME OVER", "VICTORY!")
+  - multiple levels
+  
+  - hits to actually deal damage, destroy tanks
+  
+    - FULL WALLS that block everything: movement, visibility, shooting
+    - HALF walls that block movement but allow visibilityand shooting
+    - DESTRUCTABLE (full) walls (by shooting)
+    
+    - Audio: firing, explosion, tank engine, tracks, turret turn, reload, ...
+    
+    - destroyed tanks should leave at least a mark
+    
+- same screen multiplayer (co-op vs AIs, PvP)
+  - gamepad input
+  - test in Parsec  
+  
 ToDo:
 - AI: stop pushing walls. options/parts
   - detect collision to wall/obstacle or being held back, and do something about it
-  - detect visibility to target
-  - use navmesh
 - stop tanks turning over
   - change movement to use physics forces instead of small teleports
-- separate MOVE target and AIM target for tanks :) 
 - multiple AI types/levels (behaviour, regardless of what tank it's driving)
   - how aggressive it is vs how defensive,
   - visibility range,
@@ -18,10 +37,6 @@ ToDo:
   - etc
 
 - keep working on new AI
-- hits to actually deal damage, destroy tanks
-- win/lose (game over) condition and (re)start (next) level
-  - fade in, fade out, UI feedback ("GAME OVER", "VICTORY!")
-  - multiple levels
 
 - LEVELS!
   - need a list of potential level ideas (enough to throw away some if they are not good enough) and start blocking them out
@@ -32,9 +47,7 @@ ToDo:
     - bridge
     - ...
   - also think about the different gameplay mechanics different obstacles create or promote. We have...
-    - FULL WALLS that block everything: movement, visibility, shooting
-    - HALF walls that block movement but allow visibilityand shooting
-    - DESTRUCTABLE (full) walls (by shooting)
+  
   - COULD have...
     - destructable half walls?
     - "holes" that blocks movement but allows shooting like half walls, but cannot be destroyed
@@ -45,7 +58,7 @@ ToDo:
 - Graphics 
   - models: for tank bodies, turrets, barrels
   - textures (at least ground)
-- Audio: firing, explosion, bounce, tank engine, tracks, turret turn, reload, ...
+- Audio: bounce
 - VFX: firing, bullet trails, smoke, sparks, dynamic lights (e.g explosion), hitmarks, etc
 - destroyed tanks should leave at least a mark
   - but maybe even stay there as wreck?
@@ -62,10 +75,6 @@ ToDo:
   - turret: turn rate, turn acceleration, fire rate (reload)
   - cannon?
   - bullet: speed, lifetime, bounces, damage, AOE, ...
-
-- same screen multiplayer (co-op vs AIs, PvP)
-  - gamepad input
-  - test in Parsec
 
 - Question: visibility for players? i.e. hide enemy tanks that are not visible
 

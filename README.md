@@ -76,6 +76,9 @@ a project similar to wii tanks
   - cannon?
   - bullet: speed, lifetime, bounces, damage, AOE, ...
 
+- Multiplayer: PvP, Pve/Co-op, Singleplayer options
+  - multiplayer camera
+
 - Question: visibility for players? i.e. hide enemy tanks that are not visible
 
 - DAMAGE SYSTEM DESIGN!

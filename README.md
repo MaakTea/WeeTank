@@ -76,6 +76,8 @@ a project similar to wii tanks
   - cannon?
   - bullet: speed, lifetime, bounces, damage, AOE, ...
 
+- Spawning System
+
 - Multiplayer: PvP, Pve/Co-op, Singleplayer options
   - multiplayer camera
 

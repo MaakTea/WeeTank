@@ -3,7 +3,7 @@ a project similar to wii tanks
 
 ![screenshot](./Images/weetanks1.png)
 
-##Done:
+## Done:
   - detect visibility to target
   - use navmesh
   - separate MOVE target and AIM target for tanks :) 
@@ -25,7 +25,7 @@ a project similar to wii tanks
   - gamepad input
   - test in Parsec  
   
-##ToDo:
+## ToDo:
 - AI: stop pushing walls. options/parts
   - detect collision to wall/obstacle or being held back, and do something about it
 - stop tanks turning over

@@ -24,7 +24,8 @@ a project similar to wii tanks
 - same screen multiplayer (co-op vs AIs, PvP)
   - gamepad input
   - test in Parsec  
-  
+
+
 ## ToDo:
 - AI: stop pushing walls. options/parts
   - detect collision to wall/obstacle or being held back, and do something about it
@@ -35,8 +36,9 @@ a project similar to wii tanks
   - visibility range,
   - reaction time,
   - etc
+- AI: detect incoming bullets and try to get out of their way
+- improved AI: if knows an enemy, select move target based on it. evaluate random* points near it as potential move targets and pick the best known candidate (LOS to enemy, preferably far from its aim or move direction, near cover (other location with NO LOS))
 
-- keep working on new AI
 
 - LEVELS!
   - need a list of potential level ideas (enough to throw away some if they are not good enough) and start blocking them out
@@ -56,19 +58,19 @@ a project similar to wii tanks
     - ...
 
 - Graphics 
-  - models: for tank bodies, turrets, barrels
+  - models: for tank bodies, turrets, barrels; environment
   - textures (at least ground)
 - Audio: bounce
 - VFX: firing, bullet trails, smoke, sparks, dynamic lights (e.g explosion), hitmarks, etc
 - destroyed tanks should leave at least a mark
   - but maybe even stay there as wreck?
 
-- destructable walls* (* trees, etc)
+  - walls that can be destroyed by shooting them
   - walls that can be destroyed by driving into
   - maybe, full walls could turn into half walls when damaged?
   - could half walls be destroyed?
-  - "holes": ground you can see over and shoot over but cannot move across
-  - "mud": same but only slows you down
+  - "holes": ground you can see over and shoot over but cannot move across (practically same as half wall but cannot be destroyed)
+  - "mud"/"rubble": same but only slows you down
 
 - powerups OR upgrades between rounds
   - tank: max speed, acceleration, deceleration, turn rate, turn acceleration(momentum), max speed while turning(!)
